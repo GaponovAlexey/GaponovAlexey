@@ -1,5 +1,6 @@
 ### Hi there 👋, I'm Alexey
 
+![](https://komarev.com/ghpvc/?username=GaponovAlexey)
 ## I'm a FrontEnd Developer
 
 - 💪 I like to write code
