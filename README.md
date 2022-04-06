@@ -8,11 +8,6 @@
 - 🤹🏽 I like to shoot videos for youtube
 - ⚡ I love my family and my dog
 
-### Connect with me:
-
-<!-- [<img align="left" alt="!#" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
-[<img align="left" alt="Alexey | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
 <br />
 
 ### Languages and Tools:
@@ -36,7 +31,4 @@
     <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GaponovAlexey&show_icons=true" />
 </details>
 
-<!-- [website]: !# -->
-
-[linkedin]: https//linkedin.com/in/алексей-гапонов-1b7629210/
 
