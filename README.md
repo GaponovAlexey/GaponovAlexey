@@ -38,5 +38,5 @@
 
 <!-- [website]: !# -->
 
-[linkedin]: linkedin.com/in/алексей-гапонов-1b7629210/
+[linkedin]: https//linkedin.com/in/алексей-гапонов-1b7629210/
 
