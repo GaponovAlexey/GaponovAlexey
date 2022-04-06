@@ -5,7 +5,7 @@
 - 💪 I like to write code
 - 🎉 I love to Cryptocurrency and Gym
 - 🥅 I am constantly learning new things
-- 🤹🏽 I like to shoot videos for youtube
+- 🤹🏽 I like to video youtubes
 - ⚡ I love my family and my dog
 
 <!-- <br /> -->
