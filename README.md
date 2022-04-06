@@ -1,7 +1,7 @@
 ### Hi there 👋, I'm Alexey 
 
-<br/>
 from <img align="left" alt="React" width="26px" src="https://thumbs.gfycat.com/DimDeterminedAlleycat-size_restricted.gif" />
+<br/>
 
 ## I'm a FrontEnd Developer
 
