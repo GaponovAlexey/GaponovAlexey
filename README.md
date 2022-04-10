@@ -6,9 +6,10 @@
 ## I'm a FrontEnd Developer
 
 - 💪 I like to write code
-- 🎉 I love to Cryptocurrency and Gym
-- 🥅 I am constantly learning new things
 - ⚡ I love my family and my dog
+<!-- - 🎉 I love Cryptocurrency and Gym -->
+- 🥅 I am constantly learning new things
+
 
 <!-- <br /> -->
 
