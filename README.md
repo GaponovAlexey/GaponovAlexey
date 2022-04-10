@@ -7,9 +7,8 @@
 
 - 💪 I like to write code
 - ⚡ I love my family and my dog
-<!-- - 🎉 I love Cryptocurrency and Gym -->
 - 🥅 I am constantly learning new things
-
+<!-- - 🎉 I love Cryptocurrency and Gym -->
 
 <!-- <br /> -->
 
