@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Alexey 
+### Hi there 👋, I'm Alexey
 
 <img align="left" alt="React" width="32px" src="https://thumbs.gfycat.com/DimDeterminedAlleycat-size_restricted.gif" />
 <br/>
@@ -9,6 +9,8 @@
 - 🎉 I love to Cryptocurrency and Gym
 - 🥅 I am constantly learning new things
 - ⚡ I love my family and my dog
+
+<a href="https://g-alexey.vercel.app/">my web</a>
 
 <!-- <br /> -->
 
