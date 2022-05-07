@@ -18,10 +18,12 @@
 
 
 ### My main development toolkit:
-<img align="left" alt="tailwind" width="30px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/ts.png" />
+<img align="left" alt="ts" width="26px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/ts.png" />
 <img align="left" alt="NextJs" width="40px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/nextjs.png" />
-<img align="left" alt="tailwind" width="50px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/prisma-2.svg" />
-<img align="left" alt="tailwind" width="35px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/tacss.png" />
+<img align="left" alt="prisma" width="50px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/prisma-2.svg" />
+<img align="left" alt="tailwind" width="30px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/tacss.png" />
+<img align="left" alt="prisma" width="50px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/post.png" />
+<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
 
 <br/>
 
