@@ -19,8 +19,9 @@
 
 ### My main development toolkit:
 <img align="left" alt="NextJs" width="40px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/nextjs.png" />
-<img align="left" alt="tailwind" width="40px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/tacss.png" />
+<img align="left" alt="tailwind" width="35px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/tacss.png" />
 <img align="left" alt="tailwind" width="50px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/prisma-2.svg" />
+<img align="left" alt="tailwind" width="30px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/ts.svg" />
 
 <br/>
 
