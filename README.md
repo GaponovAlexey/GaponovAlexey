@@ -42,4 +42,4 @@
 </details>
 
 
-![snake gif](https://github.com/GaponovAlexey/GaponovAlexey/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/GaponovAlexey/GaponovAlexey/blob/output/github-contribution-grid-snake.svg)
