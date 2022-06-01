@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Alexey
 
-<img align="left" alt="React" width="32px" src="https://thumbs.gfycat.com/DimDeterminedAlleycat-size_restricted.gif" />
+<img align="left" alt="React" width="32px" height="32px" src="https://thumbs.gfycat.com/DimDeterminedAlleycat-size_restricted.gif" />
 <br/>
 
 ## I'm a FrontEnd Developer
@@ -15,7 +15,7 @@
 <!-- <br /> -->
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey)
-
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge&left_color=red&right_color=green&left_text=HelloVisitors)
 
 ### My main development toolkit:
 <img align="left" alt="ts" width="26px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/ts.png" />
