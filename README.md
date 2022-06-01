@@ -1,8 +1,5 @@
 ### [![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there+%F0%9F%91%8B%2C+I'm+Alexey)](https://git.io/typing-svg)
 
-<img align="left" alt="React" width="32px" height="20px" src="https://thumbs.gfycat.com/DimDeterminedAlleycat-size_restricted.gif" />
-<br/>
-
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?background=55FF1400&center=true&lines=I'm+a+FrontEnd+Developer)](https://git.io/typing-svg)
 
 - 💪 I like to write code
