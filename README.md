@@ -41,8 +41,4 @@
     <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GaponovAlexey&show_icons=true" />
 </details>
 
-
-<br>
-<br>
-
 ![snake gif](https://github.com/GaponovAlexey/GaponovAlexey/blob/output/github-contribution-grid-snake.svg)
