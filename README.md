@@ -15,7 +15,14 @@
 <!-- <br /> -->
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey)
-![](https://visitor-badge.glitch.me/badge?username=GaponovAlexey)
+
+- uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SHOW_OS: "False"
+          SHOW_PROJECTS: "False"
+
 
 ### My main development toolkit:
 <img align="left" alt="ts" width="26px" src="https://github.com/GaponovAlexey/GaponovAlexey/blob/main/img/ts.png" />
