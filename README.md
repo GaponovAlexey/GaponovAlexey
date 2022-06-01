@@ -36,9 +36,9 @@
 
 <details>
   <summary>:zap: Statistics:</summary>
-   <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaponovAlexey&theme=highcontrast&langs_count=8&layout=compact" />
+   <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaponovAlexey&theme=chartreuse-dark&langs_count=8&layout=compact" />
     </>
-    <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GaponovAlexey&theme=highcontrast&show_icons=true" />
+    <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GaponovAlexey&theme=chartreuse-dark&show_icons=true" />
 </details>
 
 ![snake gif](https://github.com/GaponovAlexey/GaponovAlexey/blob/output/github-contribution-grid-snake.svg)
