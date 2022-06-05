@@ -1,5 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Ubuntu&background=55FF1400&multiline=true&lines=Hi+there+%F0%9F%91%8B%2C+I'm+Alexey;I'm+a+FrontEnd+Developer)](https://github.com/GaponovAlexey)
 
+--- What I'm doing ---
+
 - 💪 I like to write code
 - 🥅 I am constantly learning new things
 - ⚡ I love my family and my dog
