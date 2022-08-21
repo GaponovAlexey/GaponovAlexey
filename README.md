@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Ubuntu&background=55FF1400&multiline=true&lines=Hi+there+%F0%9F%91%8B%2C+I'm+Alexey;I'm+a+FrontEnd+Developer)](https://github.com/GaponovAlexey)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=500&lines=hi+my+friend+;I'm+a+web+Developer+;Frontend+Nextjs+-+React%2C+Redux;Backend++Golang+gin+or+any)](https://git.io/typing-svg)
 
 
 <a href="https://g-alexey.vercel.app/">my web</a>
