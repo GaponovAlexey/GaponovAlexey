@@ -29,8 +29,10 @@
 <img align="left" alt="React" width="26px" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" />
 <img align="left" alt="Redux" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Redux.svg" />
 <img align="left" alt="NextJs" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/NextJS-Dark.svg" />
+<img align="left" alt="vercel" width="26px" src="https://user-images.githubusercontent.com/72881348/186010752-3b926766-dfe7-4eaa-9f31-d04d3545ef01.png" />
 
 <br/>
+
 
 ## Backend
 
