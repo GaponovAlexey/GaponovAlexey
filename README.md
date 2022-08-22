@@ -34,6 +34,10 @@
 
 ## Backend
 
+
+
+<img align="left" alt="gin" width="18px" src="https://user-images.githubusercontent.com/72881348/186007714-8e19607a-f219-47e5-ac0e-3471a2f6307a.png" />
+<img align="left" alt="nest" width="26px" src="https://user-images.githubusercontent.com/72881348/186008781-3c4fa5d8-6db4-426c-9930-57799f76875e.svg" />
 <img align="left" alt="prisma" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Prisma.svg" />
 <img align="left" alt="post" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
 <img align="left" alt="rejex" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Regex-Dark.svg" />
