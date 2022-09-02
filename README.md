@@ -2,7 +2,8 @@
 
 
 <a href="https://g-alexey.vercel.app/">my web</a>
-
+<br/>
+<a href="https://www.duolingo.com/profile/KeksS1K" color='green'>Duolingo</a>
 <!-- <br /> -->
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey)
