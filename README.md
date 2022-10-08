@@ -1,6 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=500&lines=hi+my+friend+;I'm+a+web+Developer+;Frontend+Nextjs+-+React%2C+Redux;Backend++Golang+gin+or+any)](https://git.io/typing-svg)
 
 
+
 <a href="https://g-alexey.vercel.app/">my web</a>
 <br/>
 <a href="https://www.duolingo.com/profile/KeksS1K" color='green'>Duolingo</a>
