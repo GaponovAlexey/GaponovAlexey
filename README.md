@@ -26,13 +26,19 @@
 
 ## Fronten
 
+
+<img align="left" alt="solidjs" width="26px" src="https://user-images.githubusercontent.com/72881348/195719852-98c9e0cd-2f74-4bd9-9d86-a217ba9cc61f.svg" />
+<img align="left" alt="swelte" width="20px" src="https://user-images.githubusercontent.com/72881348/195719430-39985374-3d14-4a9c-bf20-415fc1988b49.svg" />
+<img align="left" alt="React" width="26px" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" />
+<img align="left" alt="NextJs" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/NextJS-Dark.svg" />
+<img align="left" alt="Redux" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Redux.svg" />
+<img align="left" alt="tailwind" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TailwindCSS-Dark.svg" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
-<img align="left" alt="tailwind" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TailwindCSS-Dark.svg" />
-<img align="left" alt="swelte" width="26px" src="https://user-images.githubusercontent.com/72881348/195719430-39985374-3d14-4a9c-bf20-415fc1988b49.svg" />
-<img align="left" alt="React" width="26px" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" />
-<img align="left" alt="Redux" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Redux.svg" />
-<img align="left" alt="NextJs" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/NextJS-Dark.svg" />
+
+
+
+
 
 
 <br/>
