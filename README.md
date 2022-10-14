@@ -15,6 +15,7 @@
 
 ## Languages
 
+
 <img align="left" alt="ts" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TypeScript.svg" />
 <img align="left" alt="JavaScript" width="26px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
 <img align="left" alt="node" width="26px" src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" />
@@ -24,7 +25,9 @@
 <br/>
 
 
+
 ## Fronten
+
 
 
 <img align="left" alt="solidjs" width="26px" src="https://user-images.githubusercontent.com/72881348/195719852-98c9e0cd-2f74-4bd9-9d86-a217ba9cc61f.svg" />
@@ -37,21 +40,23 @@
 <img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
 
 
-
-
-
-
 <br/>
 
 ## Backend
+
+
 <img align="left" alt="gin" width="18px" src="https://user-images.githubusercontent.com/72881348/186007714-8e19607a-f219-47e5-ac0e-3471a2f6307a.png" />
 <img align="left" alt="nest" width="26px" src="https://user-images.githubusercontent.com/72881348/186008781-3c4fa5d8-6db4-426c-9930-57799f76875e.svg" />
 <img align="left" alt="prisma" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Prisma.svg" />
 <img align="left" alt="post" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
 
+
 <br/>
 
+
 ## Tools
+
+
 
 <img align="left" alt="git" width="26px" src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" />
 <img align="left" alt="Visual Studio Code" width="26px" src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" />
