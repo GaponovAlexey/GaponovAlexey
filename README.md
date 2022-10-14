@@ -23,7 +23,7 @@
 
 
 <br/>
-
+<br/>
 
 
 ## Fronten
@@ -41,6 +41,8 @@
 
 
 <br/>
+<br/>
+
 
 ## Backend
 
@@ -52,11 +54,9 @@
 
 
 <br/>
-
+<br/>
 
 ## Tools
-
-
 
 <img align="left" alt="git" width="26px" src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" />
 <img align="left" alt="Visual Studio Code" width="26px" src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" />
