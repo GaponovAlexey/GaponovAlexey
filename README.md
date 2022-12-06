@@ -10,10 +10,12 @@
 ## Languages <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/>
 
 
-<img align="left" alt="ts" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TypeScript.svg" />
-<img align="left" alt="JavaScript" width="26px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
-<img align="left" alt="node" width="26px" src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" />
-<img align="left" alt="go" width="22px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/golang.png"/>
+
+<img align="left" alt="go" width="32px" src="https://user-images.githubusercontent.com/72881348/206045927-61a80df6-0e6a-4dc5-b823-f4f25578b75e.gif "/>
+<img align="left" alt="ts" width="32px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TypeScript.svg" />
+<img align="left" alt="JavaScript" width="32px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
+<img align="left" alt="node" width="32px" src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" />
+
 
 <br/>
 
@@ -34,19 +36,21 @@
 ## Back-end
 
 <p align="left">
-<img  alt="gin" width="18px" src="https://user-images.githubusercontent.com/72881348/186007714-8e19607a-f219-47e5-ac0e-3471a2f6307a.png" />
-<img  alt="nest" width="26px" src="https://user-images.githubusercontent.com/72881348/186008781-3c4fa5d8-6db4-426c-9930-57799f76875e.svg" />
-<img  alt="prisma" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Prisma.svg" />
+<img  alt="gin" width="24px" src="https://user-images.githubusercontent.com/72881348/186007714-8e19607a-f219-47e5-ac0e-3471a2f6307a.png" />
+<img  alt="tgbot" width="29px" src="https://user-images.githubusercontent.com/72881348/206044998-c4d98c9e-a80b-4247-861c-416e2aa9a8f6.jpg" />
+<img  alt="expressjs" width="29px" src="https://user-images.githubusercontent.com/72881348/206045255-cad0028b-d6de-4817-8dd1-f98ae3bf1990.png" />
+<img  alt="nest" width="29px" src="https://user-images.githubusercontent.com/72881348/186008781-3c4fa5d8-6db4-426c-9930-57799f76875e.svg" />
+<img  alt="prisma" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Prisma.svg" />
 
 </p>
 
 ## SQL
 
 <p align="left">
- <img  alt="Firebase" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
- <img  alt="mongo" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
- <img  alt="postgres" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
- <img  alt="mysql" width="26px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/mysql.png" />
+ <img  alt="Firebase" width="29px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
+ <img  alt="mongo" width="29px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
+ <img  alt="postgres" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
+ <img  alt="mysql" width="29px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/mysql.png" />
 
  
  <img  alt="aws" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/aws.svg" />
