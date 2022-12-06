@@ -72,7 +72,8 @@
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
 
 <p align="right" >
-<img alt="webpack" width="26px" src="https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/letterbox.gif"  />
+ <img alt="telegram" width="26px" src="https://user-images.githubusercontent.com/72881348/206042439-eaa3df41-cb42-471b-b06c-ce8acff56592.gif"  />
+<img alt="pochtamp" width="26px" src="https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/letterbox.gif"  />
 </p>
 
 <details>
