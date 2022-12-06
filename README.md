@@ -1,16 +1,11 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=500&lines=hi+my+friend+;I'm+a+web+Developer+;Frontend+Nextjs+-+React%2C+Redux;Backend++Golang+gin+or+any)](https://git.io/typing-svg)
+<!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=500&lines=hi+my+friend+;I'm+a+web+Developer+;Frontend+Nextjs+-+React%2C+Redux;Backend++Golang+gin+or+any)](https://git.io/typing-svg)
 
 
 
 <a href="https://g-alexey.vercel.app/">my web</a>
 <br/>
 <a href="https://www.duolingo.com/profile/KeksS1K" color='green'>Duolingo</a>
-<!-- <br /> -->
-
-![](https://komarev.com/ghpvc/?username=GaponovAlexey)
-<br/>
-
-
+ -->
 
 
 ## Languages
@@ -22,7 +17,6 @@
 <img align="left" alt="go" width="26px" src="https://user-images.githubusercontent.com/72881348/186004403-a14e28ce-48b4-4d12-a12f-5bf42329852e.gif"/>
 
 
-<br/>
 <br/>
 
 
@@ -67,8 +61,11 @@
 <img align="left" alt="k8c" width="26px" src="https://user-images.githubusercontent.com/72881348/186007419-7da504e6-43ab-4ee8-8ac5-a9b4030b0eca.gif"/>
 
 
+<br/>
 
 <br />
+
+![](https://komarev.com/ghpvc/?username=GaponovAlexey)
 
 <br />
 
