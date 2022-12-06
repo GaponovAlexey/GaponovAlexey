@@ -1,8 +1,8 @@
 
- 
+ <h3>
  I'm Oleksii and I go by GaponovAlexey online in most places. 
  I have built, and more importantly, helped others build computer programs over the past four ears. 
- 
+ </h3>
  
  
  <img alt="ad"  align="right" src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" />
@@ -48,6 +48,8 @@
 
 <p align="left">
  <img  alt="Firebase" width="29px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
+ <img  alt="Superbase" width="29px" src="https://user-images.githubusercontent.com/72881348/206047160-9d3a727d-a666-4953-a382-a5f497c2901b.jpg" />
+ <img  alt="redis" width="29px" src="https://user-images.githubusercontent.com/72881348/206048396-5b50d22e-3948-4410-bac5-eebb49eafe8b.png" />
  <img  alt="mongo" width="29px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
  <img  alt="postgres" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
  <img  alt="mysql" width="29px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/mysql.png" />
