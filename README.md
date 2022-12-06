@@ -38,7 +38,7 @@
 <p align="left">
 <img  alt="gin" width="24px" src="https://user-images.githubusercontent.com/72881348/186007714-8e19607a-f219-47e5-ac0e-3471a2f6307a.png" />
 <img  alt="tgbot" width="29px" src="https://user-images.githubusercontent.com/72881348/206044998-c4d98c9e-a80b-4247-861c-416e2aa9a8f6.jpg" />
-<img  alt="expressjs" width="29px" src="https://user-images.githubusercontent.com/72881348/206045255-cad0028b-d6de-4817-8dd1-f98ae3bf1990.png" />
+<img  alt="expressjs" width="29px" src="https://user-images.githubusercontent.com/72881348/206050320-2d93ee89-1967-4ae4-bd34-57ab160526f1.png" />
 <img  alt="nest" width="29px" src="https://user-images.githubusercontent.com/72881348/186008781-3c4fa5d8-6db4-426c-9930-57799f76875e.svg" />
 <img  alt="prisma" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Prisma.svg" />
 
