@@ -52,12 +52,12 @@
  <img  alt="mysql" width="29px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/mysql.png" />
  <img  alt="mongo" width="29px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
  <img  alt="redis" width="29px" src="https://user-images.githubusercontent.com/72881348/206048396-5b50d22e-3948-4410-bac5-eebb49eafe8b.png" />
+ <img  alt="google" width="50px" src="https://user-images.githubusercontent.com/72881348/206301151-68960207-233a-4067-b70c-2f76312acdff.png" />
  <img  alt="aws" width="30px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/aws.svg" />
  <img  alt="Superbase" width="29px" src="https://user-images.githubusercontent.com/72881348/206047160-9d3a727d-a666-4953-a382-a5f497c2901b.jpg" />
  <img  alt="Firebase" width="29px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
  
 </p>
-
 
 ## Tools <img  alt="kafka" width="26px" src="https://camo.githubusercontent.com/662490d98da872217819984322ada7eabdb0cf406f49e1efbfd6cdc27e164b3e/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313632313032343339342f33393039322f6361742d726f6c6c2e6769663f31363231303234333934" />
 
@@ -68,7 +68,7 @@
 <img  alt="Docker" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Docker.svg" />
 <img  alt="rejex" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Regex-Dark.svg" />
 <img  alt="vercel" width="26px" src="https://user-images.githubusercontent.com/72881348/186010972-4d534ba7-53fb-45d9-888b-4b8d8869d262.png" />
-<img   alt="k8c" width="26px" src="https://user-images.githubusercontent.com/72881348/186007419-7da504e6-43ab-4ee8-8ac5-a9b4030b0eca.gif"/>
+<img  alt="k8c" width="26px" src="https://user-images.githubusercontent.com/72881348/186007419-7da504e6-43ab-4ee8-8ac5-a9b4030b0eca.gif"/>
 <img  alt="linux" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/linux-tux.svg" />
 <img  alt="kafka" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/kafka.svg" />
 <img alt="webpack" width="26px" src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg"  />
