@@ -47,15 +47,13 @@
 ## SQL
 
 <p align="left">
- <img  alt="Firebase" width="29px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
- <img  alt="Superbase" width="29px" src="https://user-images.githubusercontent.com/72881348/206047160-9d3a727d-a666-4953-a382-a5f497c2901b.jpg" />
- <img  alt="redis" width="29px" src="https://user-images.githubusercontent.com/72881348/206048396-5b50d22e-3948-4410-bac5-eebb49eafe8b.png" />
- <img  alt="mongo" width="29px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
  <img  alt="postgres" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
  <img  alt="mysql" width="29px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/mysql.png" />
-
- 
- <img  alt="aws" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/aws.svg" />
+ <img  alt="mongo" width="29px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
+ <img  alt="redis" width="29px" src="https://user-images.githubusercontent.com/72881348/206048396-5b50d22e-3948-4410-bac5-eebb49eafe8b.png" />
+ <img  alt="aws" width="30px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/aws.svg" />
+ <img  alt="Superbase" width="29px" src="https://user-images.githubusercontent.com/72881348/206047160-9d3a727d-a666-4953-a382-a5f497c2901b.jpg" />
+ <img  alt="Firebase" width="29px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
  
 </p>
 
