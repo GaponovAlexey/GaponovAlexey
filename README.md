@@ -12,9 +12,9 @@
 
 
 
-<img align="left" alt="go" width="32px" src="https://user-images.githubusercontent.com/72881348/206045927-61a80df6-0e6a-4dc5-b823-f4f25578b75e.gif "/>
+<img align="left" alt="go" width="33px" src="https://user-images.githubusercontent.com/72881348/206045927-61a80df6-0e6a-4dc5-b823-f4f25578b75e.gif "/>
 <img align="left" alt="ts" width="32px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TypeScript.svg" />
-<img align="left" alt="JavaScript" width="32px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
+<img align="left" alt="JavaScript" width="36px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
 <img align="left" alt="node" width="32px" src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" />
 
 
