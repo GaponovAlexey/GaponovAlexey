@@ -77,15 +77,14 @@
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
 
 <p align="right" >
- <a href="https://t.me/Alexey_Gaponov" >
- <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
+ <a href="https://www.linkedin.com/in/gaponovalexey/" >
+ <img alt="telegram" width="32px" src="https://user-images.githubusercontent.com/72881348/206057960-640d818a-975a-48ae-9476-0e77a8696d28.png "  />
 </a>
 <a href="https://t.me/Alexey_Gaponov" >
  <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
 </a>
  <img alt="pochtamp" width="26px" src="https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/letterbox.gif"  />
 </p>
-
 
 
 <details>
