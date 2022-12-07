@@ -71,16 +71,22 @@
 <img  alt="linux" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/linux-tux.svg" />
 <img  alt="kafka" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/kafka.svg" />
 <img alt="webpack" width="26px" src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg"  />
+ <img alt="Vite" width="26px" src="https://user-images.githubusercontent.com/72881348/206057162-afde1e90-0c1c-47d6-97ff-a22f2f116514.png"  />
 </p>
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
 
 <p align="right" >
+ <a href="https://t.me/Alexey_Gaponov" >
+ <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
+</a>
 <a href="https://t.me/Alexey_Gaponov" >
- <img alt="telegram" width="26px" src="https://user-images.githubusercontent.com/72881348/206042439-eaa3df41-cb42-471b-b06c-ce8acff56592.gif"  />
+ <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
 </a>
  <img alt="pochtamp" width="26px" src="https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/letterbox.gif"  />
 </p>
+
+
 
 <details>
   <summary>:zap: Statistics:</summary>
