@@ -74,7 +74,6 @@
 <img  alt="vercel" width="26px" src="https://user-images.githubusercontent.com/72881348/186010972-4d534ba7-53fb-45d9-888b-4b8d8869d262.png" />
 <img  alt="k8c" width="26px" src="https://user-images.githubusercontent.com/72881348/186007419-7da504e6-43ab-4ee8-8ac5-a9b4030b0eca.gif"/>
 <img  alt="linux" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/linux-tux.svg" />
-<img  alt="kafka" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/kafka.svg" />
 <img alt="webpack" width="26px" src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg"  />
  <img alt="Vite" width="26px" src="https://user-images.githubusercontent.com/72881348/206057162-afde1e90-0c1c-47d6-97ff-a22f2f116514.png"  />
 </p>
