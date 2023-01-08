@@ -58,8 +58,13 @@
  
 </p>
 
-## Tools <img  alt="kafka" width="26px" src="https://camo.githubusercontent.com/662490d98da872217819984322ada7eabdb0cf406f49e1efbfd6cdc27e164b3e/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313632313032343339342f33393039322f6361742d726f6c6c2e6769663f31363231303234333934" />
 
+
+## Tools <img  alt="cote" width="26px" src="https://camo.githubusercontent.com/662490d98da872217819984322ada7eabdb0cf406f49e1efbfd6cdc27e164b3e/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313632313032343339342f33393039322f6361742d726f6c6c2e6769663f31363231303234333934" />
+
+
+
+ 
 <p align="left" >
 <img alt="git" width="26px" src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" />
 <img  alt="Visual Studio Code" width="26px" src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" />
@@ -74,6 +79,14 @@
  <img alt="Vite" width="26px" src="https://user-images.githubusercontent.com/72881348/206057162-afde1e90-0c1c-47d6-97ff-a22f2f116514.png"  />
 </p>
 
+
+<div > 
+ 
+  [![LeetCode stats](https://leetcode-stats-six.vercel.app/?username=GaponovAlexey&theme=dark)](https://leetcode.com/GaponovAlexey/)
+ 
+</div>
+
+
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
 
 <p align="left" >
@@ -86,6 +99,7 @@
 <!--  <img alt="pochtamp" width="26px" src="https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/letterbox.gif"  /> -->
 </p>
 
+
 <!-- </>
 <details>
   <summary>:zap: Statistics:</summary>
@@ -95,3 +109,4 @@
  
 </details>
 -->
+<!--  [![LeetCode stats](https://leetcode-stats-six.vercel.app/?username=GaponovAlexey&theme=dark)](https://leetcode.com/GaponovAlexey/) -->
