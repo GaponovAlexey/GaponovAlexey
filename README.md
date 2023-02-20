@@ -22,28 +22,39 @@
  
  <br/>
  
- <img align="left" alt="React"  src="https://img.shields.io/badge/-React-0A2516?style=flat&amp;logo=React"/>
- <img align="left" alt="Next.js" src="https://img.shields.io/badge/-Next.js-0A2516?style=flat&amp;logo=Next.js"/>
- <img align="left" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-0A2516?style=flat&amp;logo=Vue.js"/>
- <img align="left" alt="Nuxt.js" style="max-width: 100%" src="https://img.shields.io/badge/-Nuxt.js-0A2516?style=flat&amp;logo=Nuxt.js"/>
- <img align="left" alt="Angular" style="max-width: 100%" src="https://img.shields.io/badge/-Angular-0A2516?style=flat&amp;logo=Angular"/>
+ <img align="top" alt="React"  src="https://img.shields.io/badge/-React-0A2516?style=flat&amp;logo=React"/>
+ <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-0A2516?style=flat&amp;logo=Next.js"/>
+ <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-0A2516?style=flat&amp;logo=Vue.js"/>
+ <img align="top" alt="Nuxt.js" style="max-width: 100%" src="https://img.shields.io/badge/-Nuxt.js-0A2516?style=flat&amp;logo=Nuxt.js"/>
+ <img align="top" alt="Angular" style="max-width: 100%" src="https://img.shields.io/badge/-Angular-0A2516?style=flat&amp;logo=Angular"/>
  <img align="top" alt="Solid" style="max-width: 100%" src="https://img.shields.io/badge/-Solid-0A2516?style=flat&amp;logo=Solid"/>
- <img align="left" alt="Svelte" style="max-width: 100%" src="https://img.shields.io/badge/-Svelte-0A2516?style=flat&amp;logo=Svelte"/>
- <img align="left" alt="WordPress" style="max-width: 100%" src="https://img.shields.io/badge/-WordPress-0A2516?style=flat&amp;logo=WordPress"/>
+ <img align="top" alt="Svelte" style="max-width: 100%" src="https://img.shields.io/badge/-Svelte-0A2516?style=flat&amp;logo=Svelte"/>
+ <img align="top" alt="WordPress" style="max-width: 100%" src="https://img.shields.io/badge/-WordPress-0A2516?style=flat&amp;logo=WordPress"/>
  
 </p>
 
-<br/>
+
 
 ###  Back-end
 
-
 <p align="left">
-<img  alt="gin" width="24px" src="https://user-images.githubusercontent.com/72881348/186007714-8e19607a-f219-47e5-ac0e-3471a2f6307a.png" />
-<img  alt="tgbot" width="29px" src="https://user-images.githubusercontent.com/72881348/206044998-c4d98c9e-a80b-4247-861c-416e2aa9a8f6.jpg" />
-<img  alt="expressjs" width="29px" src="https://user-images.githubusercontent.com/72881348/206050320-2d93ee89-1967-4ae4-bd34-57ab160526f1.png" />
-<img  alt="nest" width="29px" src="https://user-images.githubusercontent.com/72881348/186008781-3c4fa5d8-6db4-426c-9930-57799f76875e.svg" />
-<img  alt="prisma" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Prisma.svg" />
+ <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-0A2516?style=flat&amp;logo=go"/>
+ 
+ <img align="top" alt="Gin" style="max-width: 100%" src="https://img.shields.io/badge/-Gin-0A2516?style=flat&amp;logo=go"/>
+ 
+ <img align="top" alt="Beego" style="max-width: 100%" src="https://img.shields.io/badge/-Beego-0A2516?style=flat&amp;logo=go"/>
+ 
+ <img align="top" alt="Iris" style="max-width: 100%" src="https://img.shields.io/badge/-Iris-0A2516?style=flat&amp;logo=go"/>
+ 
+ <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-express.js-%23197CB1E?style=flat&logo=node.js"/>
+ 
+ 
+ <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-NestJS-%23197CB1E?style=flat&logo=NestJS"/>
+ 
+ <img align="top" alt="prisma" style="max-width: 100%" src="https://img.shields.io/badge/-prisma-%23197CB1E?style=flat&logo=prisma"/>
+ 
+ <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-telegram.bot-26A5E4?style=flat&logo=telegram"/>
+ 
 
 </p>
 
