@@ -3,12 +3,13 @@
 
 ### Languages <img src="https://user-images.githubusercontent.com/72881348/206250286-b8ee1649-935a-44ca-a699-eb29aea1b0e8.gif" width="30" height="40"/>
 
-
-<img align="left" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-TypeScript-0A2516?style=flat&amp;logo=TypeScript"/>
+<p>
+<img align="top" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-TypeScript-0A2516?style=flat&amp;logo=TypeScript"/>
 <img align="top" alt="JavaScript" style="max-width: 100%" src="https://img.shields.io/badge/-JavaScript-0A2516?style=flat&amp;logo=JavaScript"/>
-<img align="left" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
+<img align="top" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
 <img align="top" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Golang-0A2516?style=flat&amp;logo=Go"/>
-
+</p>
+ 
 ### Front-end 
 
 <p align="left">
