@@ -35,7 +35,7 @@
 
 
 
-###  Back-end
+##  Back-end
 
 <p align="left">
  <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-0A2516?style=flat&amp;logo=go"/>
@@ -61,18 +61,15 @@
 ## SQL
 
 <p align="left">
- <img  alt="postgres" width="29px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/PostgreSQL-Dark.svg" />
- <img  alt="mysql" width="29px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/mysql.png" />
- <img  alt="mongo" width="29px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
- <img  alt="redis" width="29px" src="https://user-images.githubusercontent.com/72881348/206048396-5b50d22e-3948-4410-bac5-eebb49eafe8b.png" />
- <img  alt="google" width="50px" src="https://user-images.githubusercontent.com/72881348/206301151-68960207-233a-4067-b70c-2f76312acdff.png" />
- <img  alt="aws" width="30px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/aws.svg" />
- <img  alt="Superbase" width="29px" src="https://user-images.githubusercontent.com/72881348/206047160-9d3a727d-a666-4953-a382-a5f497c2901b.jpg" />
- <img  alt="Firebase" width="29px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
+ <img align="mongodb" alt="mongodb" style="max-width: 100%" src="https://img.shields.io/badge/-Mongodb-080A0D?style=flat&logo=mongodb"/>
+  <img align="PostgreSQL" alt="PostgreSQL" style="max-width: 100%" src="https://img.shields.io/badge/-PostgreSQL-080A0D?style=flat&logo=PostgreSQL"/>
+  <img align="mysql" alt="mysql" style="max-width: 100%" src="https://img.shields.io/badge/-MySQL-080A0D?style=flat&logo=mysql"/>
+  <img align="supabase" alt="supabase" style="max-width: 100%" src="https://img.shields.io/badge/-supabase-080A0D?style=flat&logo=supabase"/>
+  <img align="Firebase" alt="Firebase" style="max-width: 100%" src="https://img.shields.io/badge/-Firebase-080A0D?style=flat&logo=Firebase"/>
+  <img align="redis" alt="redis" style="max-width: 100%" src="https://img.shields.io/badge/-Redis-080A0D?style=flat&logo=redis"/>
+  
  
 </p>
-
-
 
 ## Tools <img  alt="cote" width="26px" src="https://camo.githubusercontent.com/662490d98da872217819984322ada7eabdb0cf406f49e1efbfd6cdc27e164b3e/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313632313032343339342f33393039322f6361742d726f6c6c2e6769663f31363231303234333934" />
 
@@ -80,16 +77,16 @@
 
  
 <p align="left" >
-<img alt="git" width="26px" src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" />
-<img  alt="Visual Studio Code" width="26px" src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" />
-<img  alt="figma" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Figma-Dark.svg"/>
-<img  alt="Docker" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Docker.svg" />
-<img  alt="rejex" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Regex-Dark.svg" />
-<img  alt="vercel" width="26px" src="https://user-images.githubusercontent.com/72881348/186010972-4d534ba7-53fb-45d9-888b-4b8d8869d262.png" />
-<img  alt="k8c" width="26px" src="https://user-images.githubusercontent.com/72881348/186007419-7da504e6-43ab-4ee8-8ac5-a9b4030b0eca.gif"/>
-<img  alt="linux" width="26px" src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/linux-tux.svg" />
-<img alt="webpack" width="26px" src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg"  />
- <img alt="Vite" width="26px" src="https://user-images.githubusercontent.com/72881348/206057162-afde1e90-0c1c-47d6-97ff-a22f2f116514.png"  />
+   <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Git-080A0D?style=flat&logo=git"/>
+ <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Webpack-080A0D?style=flat&logo=Webpack"/>
+ <img align="top" alt="Vite" style="max-width: 100%" src="https://img.shields.io/badge/-Vite-080A0D?style=flat&logo=Vite"/>
+   <img align="top" alt="Docker" style="max-width: 100%" src="https://img.shields.io/badge/-Docker-080A0D?style=flat&logo=Docker"/>
+ <img align="top" alt="k8c" style="max-width: 100%" src="https://img.shields.io/badge/-k8c-080A0D?style=flat&logo=kubernetes"/>  
+ 
+ <img align="top" alt="google" style="max-width: 100%" src="https://img.shields.io/badge/-GCP-080A0D?style=flat&logo=google"/>
+ <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-AWS-080A0D?style=flat&logo=amazon"/>
+
+ 
 </p>
 
 
@@ -104,22 +101,10 @@
 
 <p align="left" >
  <a href="https://www.linkedin.com/in/gaponovalexey/" >
- <img alt="telegram" width="32px" src="https://user-images.githubusercontent.com/72881348/206057960-640d818a-975a-48ae-9476-0e77a8696d28.png "  /> 
-</a>
-<a href="https://t.me/Alexey_Gaponov" >
- <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
-</a>
-<!--  <img alt="pochtamp" width="26px" src="https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/letterbox.gif"  /> -->
+     <img alt="telegram" width="32px" src="https://user-images.githubusercontent.com/72881348/206057960-640d818a-975a-48ae-9476-0e77a8696d28.png "  /> 
+ </a>
+ <a href="https://t.me/Alexey_Gaponov" >
+    <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
+ </a>
 </p>
 
-
-<!-- </>
-<details>
-  <summary>:zap: Statistics:</summary>
-   <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaponovAlexey&theme=chartreuse-dark&langs_count=8&layout=compact" /> 
- 
-    <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GaponovAlexey&theme=chartreuse-dark&show_icons=true&layout=compact" /> 
- 
-</details>
--->
-<!--  [![LeetCode stats](https://leetcode-stats-six.vercel.app/?username=GaponovAlexey&theme=dark)](https://leetcode.com/GaponovAlexey/) -->
