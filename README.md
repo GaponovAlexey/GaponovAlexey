@@ -6,33 +6,36 @@
  <img alt="ad"  align="right" src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" />
 
 
-## Languages <img src="https://user-images.githubusercontent.com/72881348/206250286-b8ee1649-935a-44ca-a699-eb29aea1b0e8.gif" width="30" height="40"/>
+### Languages <img src="https://user-images.githubusercontent.com/72881348/206250286-b8ee1649-935a-44ca-a699-eb29aea1b0e8.gif" width="30" height="40"/>
 
 
-<img align="left" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
 <img align="left" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-TypeScript-0A2516?style=flat&amp;logo=TypeScript"/>
-<img align="left" alt="JavaScript" style="max-width: 100%" src="https://img.shields.io/badge/-JavaScript-0A2516?style=flat&amp;logo=JavaScript"/>
-<img align="left" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Golang-0A2516?style=flat&amp;logo=Go"/>
+<img align="top" alt="JavaScript" style="max-width: 100%" src="https://img.shields.io/badge/-JavaScript-0A2516?style=flat&amp;logo=JavaScript"/>
+<img align="left" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
+<img align="top" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Golang-0A2516?style=flat&amp;logo=Go"/>
 
+### Front-end 
+
+<p align="left">
+ <img align="left" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
+ <img align="left" alt="HTML5"  src="https://img.shields.io/badge/-HTML5-0A2516?style=flat&amp;logo=HTML5"/>
+ 
+ <br/>
+ 
+ <img align="left" alt="React"  src="https://img.shields.io/badge/-React-0A2516?style=flat&amp;logo=React"/>
+ <img align="left" alt="Next.js" src="https://img.shields.io/badge/-Next.js-0A2516?style=flat&amp;logo=Next.js"/>
+ <img align="left" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-0A2516?style=flat&amp;logo=Vue.js"/>
+ <img align="left" alt="Nuxt.js" style="max-width: 100%" src="https://img.shields.io/badge/-Nuxt.js-0A2516?style=flat&amp;logo=Nuxt.js"/>
+ <img align="left" alt="Angular" style="max-width: 100%" src="https://img.shields.io/badge/-Angular-0A2516?style=flat&amp;logo=Angular"/>
+ <img align="top" alt="Solid" style="max-width: 100%" src="https://img.shields.io/badge/-Solid-0A2516?style=flat&amp;logo=Solid"/>
+ <img align="left" alt="Svelte" style="max-width: 100%" src="https://img.shields.io/badge/-Svelte-0A2516?style=flat&amp;logo=Svelte"/>
+ <img align="left" alt="WordPress" style="max-width: 100%" src="https://img.shields.io/badge/-WordPress-0A2516?style=flat&amp;logo=WordPress"/>
+ 
+</p>
 
 <br/>
 
-
-## Front-end 
-
-<p align="left">
-<img  alt="solidjs" width="26px" src="https://user-images.githubusercontent.com/72881348/195719852-98c9e0cd-2f74-4bd9-9d86-a217ba9cc61f.svg" />
-<img  alt="swelte" width="20px" src="https://user-images.githubusercontent.com/72881348/195719430-39985374-3d14-4a9c-bf20-415fc1988b49.svg" />
-<img  alt="React" width="26px" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" />
-<img  alt="NextJs" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/NextJS-Dark.svg" />
-<img  alt="Redux" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/Redux.svg" />
-<img  alt="tailwind" width="26px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TailwindCSS-Dark.svg" />
-<img  alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img  alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
-<img  alt="WordPress" width="26px" src="https://github.com/hussainweb/hussainweb/blob/main/icons/wordpress.png" />
-</p>
-
-## Back-end
+###  Back-end
 
 
 <p align="left">
