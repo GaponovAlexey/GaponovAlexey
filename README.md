@@ -9,11 +9,10 @@
 ## Languages <img src="https://user-images.githubusercontent.com/72881348/206250286-b8ee1649-935a-44ca-a699-eb29aea1b0e8.gif" width="30" height="40"/>
 
 
-<img align="left" alt="go" width="39px" src="https://user-images.githubusercontent.com/72881348/206324696-f6c10a3f-afed-49e8-88b4-42a07636892f.gif "/>
-<img align="left" alt="ts" width="32px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/b6394dd1217c572146066dae32e6c89715c20a0a/icons/TypeScript.svg" />
-<img align="left" alt="JavaScript" width="36px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
-<img align="left" alt="node" width="32px" src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" />
-
+<img align="left" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
+<img align="left" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-TypeScript-0A2516?style=flat&amp;logo=TypeScript"/>
+<img align="left" alt="JavaScript" style="max-width: 100%" src="https://img.shields.io/badge/-JavaScript-0A2516?style=flat&amp;logo=JavaScript"/>
+<img align="left" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Golang-0A2516?style=flat&amp;logo=Go"/>
 
 
 <br/>
