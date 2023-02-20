@@ -12,8 +12,8 @@
 ### Front-end 
 
 <p align="left">
- <img align="left" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
- <img align="left" alt="HTML5"  src="https://img.shields.io/badge/-HTML5-0A2516?style=flat&amp;logo=HTML5"/>
+ <img align="top" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
+ <img align="top" alt="HTML5"  src="https://img.shields.io/badge/-HTML5-0A2516?style=flat&amp;logo=HTML5"/>
  
  <br/>
  
