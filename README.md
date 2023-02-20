@@ -44,9 +44,9 @@
  <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-express.js-%23197CB1E?style=flat&logo=node.js"/>
  
  
- <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-NestJS-%23197CB1E?style=flat&logo=NestJS"/>
+ <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-NestJS-E0234E?style=flat&logo=NestJS"/>
  
- <img align="top" alt="prisma" style="max-width: 100%" src="https://img.shields.io/badge/-prisma-%23197CB1E?style=flat&logo=prisma"/>
+ <img align="top" alt="prisma" style="max-width: 100%" src="https://img.shields.io/badge/-prisma-181A1B?style=flat&logo=prisma"/>
  
  <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-telegram.bot-26A5E4?style=flat&logo=telegram"/>
  
