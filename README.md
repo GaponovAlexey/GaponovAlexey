@@ -53,7 +53,7 @@
 
 </p>
 
-## SQL
+## SQL and NoSQL
 
 <p align="left">
  <img align="mongodb" alt="mongodb" style="max-width: 100%" src="https://img.shields.io/badge/-Mongodb-080A0D?style=flat&logo=mongodb"/>
