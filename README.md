@@ -39,7 +39,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-express.js-0A2516?style=flat&logo=express"/>
  <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-0A2516?style=flat&amp;logo=go"/>
  <img align="top" alt="Gin" style="max-width: 100%" src="https://img.shields.io/badge/-Gin-0A2516?style=flat&amp;logo=go"/>
- <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-Telegram.bot-26A5E4?style=flat&logo=telegram"/>
+ 
  
 </p>
 
@@ -69,11 +69,13 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
    <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-AWS-080A0D?style=flat&logo=amazon"/>
    <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-DigitalOcean-40E9D0?style=flat&logo=DigitalOcean"/>
    <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-Vercel-00151A?style=flat&logo=Vercel"/>
-  <br/>
+   <br/>
    <img align="web3.js" alt="web3.js" style="max-width: 100%" src="https://img.shields.io/badge/-web3.js-080A0D?style=flat&logo=web3.js"/>
    <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-RainbowKit-E0234E?style=flat&logo=RainbowKit"/>
    <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-wagmi-S1111E?style=flat&logo=wagmi"/>
    <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-Ethers.js-0A1516?style=flat&logo=ethereum"/>
+   <br/>
+   <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-Telegram.bot-26A5E4?style=flat&logo=telegram"/>
 </p>
 
 
