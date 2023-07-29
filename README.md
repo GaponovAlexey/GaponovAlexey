@@ -67,6 +67,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
    <img align="top" alt="k8c" style="max-width: 100%" src="https://img.shields.io/badge/-k8c-080A0D?style=flat&logo=kubernetes"/>  
    <img align="top" alt="google" style="max-width: 100%" src="https://img.shields.io/badge/-GCP-080A0D?style=flat&logo=google"/>
    <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-AWS-080A0D?style=flat&logo=amazon"/>
+   <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-DigitalOcean-40E9D0?style=flat&logo=DigitalOcean"/>
   <br/>
    <img align="web3.js" alt="web3.js" style="max-width: 100%" src="https://img.shields.io/badge/-web3.js-080A0D?style=flat&logo=web3.js"/>
    <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-RainbowKit-E0234E?style=flat&logo=RainbowKit"/>
