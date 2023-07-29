@@ -25,11 +25,8 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  <img align="top" alt="React"  src="https://img.shields.io/badge/-React-0A2516?style=flat&amp;logo=React"/>
  <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-0A2516?style=flat&amp;logo=Next.js"/>
  <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-0A2516?style=flat&amp;logo=Vue.js"/>
- <img align="top" alt="Nuxt.js" style="max-width: 100%" src="https://img.shields.io/badge/-Nuxt.js-0A2516?style=flat&amp;logo=Nuxt.js"/>
- <img align="top" alt="Angular" style="max-width: 100%" src="https://img.shields.io/badge/-Angular-0A2516?style=flat&amp;logo=Angular"/>
  <img align="top" alt="Solid" style="max-width: 100%" src="https://img.shields.io/badge/-Solid-0A2516?style=flat&amp;logo=Solid"/>
  <img align="top" alt="Svelte" style="max-width: 100%" src="https://img.shields.io/badge/-Svelte-0A2516?style=flat&amp;logo=Svelte"/>
- <img align="top" alt="WordPress" style="max-width: 100%" src="https://img.shields.io/badge/-WordPress-0A2516?style=flat&amp;logo=WordPress"/>
  
 </p>
 
