@@ -17,8 +17,9 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 ### Front-end 
 
 <p align="left">
- <img align="top" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
  <img align="top" alt="HTML5"  src="https://img.shields.io/badge/-HTML5-0A2516?style=flat&amp;logo=HTML5"/>
+ <img align="top" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
+ <img align="Tailwindcss" alt="Tailwindcss"  src="https://img.shields.io/badge/-Tailwindcss-0A2516?style=flat&amp;logo=Tailwindcss"/>
  
  <br/>
  
@@ -67,8 +68,11 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
    <img align="top" alt="k8c" style="max-width: 100%" src="https://img.shields.io/badge/-k8c-080A0D?style=flat&logo=kubernetes"/>  
    <img align="top" alt="google" style="max-width: 100%" src="https://img.shields.io/badge/-GCP-080A0D?style=flat&logo=google"/>
    <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-AWS-080A0D?style=flat&logo=amazon"/>
+  <br/>
    <img align="web3.js" alt="web3.js" style="max-width: 100%" src="https://img.shields.io/badge/-web3.js-080A0D?style=flat&logo=web3.js"/>
    <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-RainbowKit-E0234E?style=flat&logo=RainbowKit"/>
+   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-wagmi-S1111E?style=flat&logo=wagmi"/>
+   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-Ethers.js-0A1516?style=flat&logo=ethereum"/>
 </p>
 
 
