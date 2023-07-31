@@ -24,7 +24,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  
  <img align="top" alt="React"  src="https://img.shields.io/badge/-React-0A1516?style=flat&amp;logo=React"/>
  <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-E0231E?style=flat&amp;logo=Next.js"/>
- <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-0A2516?style=flat&amp;logo=Vue.js"/>
+ <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue-0A2516?style=flat&amp;logo=Vue.js"/>
  <img align="top" alt="Solid" style="max-width: 100%" src="https://img.shields.io/badge/-Solid-0A2516?style=flat&amp;logo=Solid"/>
  <img align="top" alt="Svelte" style="max-width: 100%" src="https://img.shields.io/badge/-Svelte-0A2516?style=flat&amp;logo=Svelte"/>
  
