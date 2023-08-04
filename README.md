@@ -15,6 +15,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  
 ### Front-end 
 
+
 <p align="left">
  <img align="top" alt="HTML5"  src="https://img.shields.io/badge/-HTML5-0A2516?style=flat&amp;logo=HTML5"/>
  <img align="top" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
@@ -32,7 +33,9 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
 
 
-###  Back-end
+###  Back-end 
+
+
 
 <p align="left">
  <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-NestJS-E0234E?style=flat&logo=NestJS"/>
@@ -82,8 +85,8 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 <div > 
  
   [![LeetCode stats](https://leetcode-stats-six.vercel.app/?username=GaponovAlexey&theme=dark)](https://leetcode.com/GaponovAlexey/)
- 
-</div>
+ <img  alt="cote" width="20%" src="https://github.com/GaponovAlexey/GaponovAlexey/assets/72881348/fa7bfdc6-8114-41d7-818d-0d15d43f21bc" />
+</div> 
 
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
