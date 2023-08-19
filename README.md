@@ -49,11 +49,12 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 ### SQL and NoSQL
 
 <p align="left">
-  <img align="mongodb" alt="mongodb" style="max-width: 100%" src="https://img.shields.io/badge/-Mongodb-080A0D?style=flat&logo=mongodb"/>
   <img align="PostgreSQL" alt="PostgreSQL" style="max-width: 100%" src="https://img.shields.io/badge/-PostgreSQL-080A0D?style=flat&logo=PostgreSQL"/>
+  <img align="MySql" alt="MySql" style="max-width: 100%" src="https://img.shields.io/badge/-MySql-080A0D?style=flat&logo=MySql"/>
+  <img align="mongodb" alt="mongodb" style="max-width: 100%" src="https://img.shields.io/badge/-Mongodb-080A0D?style=flat&logo=mongodb"/>
+  <img align="redis" alt="redis" style="max-width: 100%" src="https://img.shields.io/badge/-Redis-080A0D?style=flat&logo=redis"/>
   <img align="supabase" alt="supabase" style="max-width: 100%" src="https://img.shields.io/badge/-supabase-080A0D?style=flat&logo=supabase"/>
   <img align="Firebase" alt="Firebase" style="max-width: 100%" src="https://img.shields.io/badge/-Firebase-080A0D?style=flat&logo=Firebase"/>
-  <img align="redis" alt="redis" style="max-width: 100%" src="https://img.shields.io/badge/-Redis-080A0D?style=flat&logo=redis"/>
 </p>
 
 
