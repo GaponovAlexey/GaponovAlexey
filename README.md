@@ -18,11 +18,6 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
 
 <p align="left">
- <img align="top" alt="HTML5"  src="https://img.shields.io/badge/-HTML5-0A2516?style=flat&amp;logo=HTML5"/>
- <img align="top" alt="CSS3" style="margin: 20px;" src="https://img.shields.io/badge/-CSS3-0A2516?style=flat&amp;logo=css3"/>
- <img align="Tailwindcss" alt="Tailwindcss"  src="https://img.shields.io/badge/-Tailwindcss-0A2516?style=flat&amp;logo=Tailwindcss"/>
- 
- <br/>
  
  <img align="top" alt="React"  src="https://img.shields.io/badge/-React-0A1516?style=flat&amp;logo=React"/>
  <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-E0231E?style=flat&amp;logo=Next.js"/>
