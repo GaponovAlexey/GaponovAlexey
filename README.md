@@ -8,9 +8,10 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 <p>
 <img align="top" alt="JavaScript" style="max-width: 100%" src="https://img.shields.io/badge/-Js-0A2516?style=flat&amp;logo=JavaScript"/>
 <img align="top" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-Ts-0A2516?style=flat&amp;logo=TypeScript"/>
-<img align="top" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
-<img align="top" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Go-0A2516?style=flat&amp;logo=Go"/>
-<img align="top" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Rust-0A2516?style=flat&amp;logo=Rust"/>
+</br>
+<img align="top" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Go-000000?style=flat&amp;logo=Go"/>
+<img align="top" alt="rust" style="max-width: 100%" src="https://img.shields.io/badge/-Rust-000000?style=flat&amp;logo=Rust"/>
+<img align="top" alt="dart" style="max-width: 100%" src="https://img.shields.io/badge/-Dart-000000?style=flat&amp;logo=Dart"/>
 </p>
  
 ### Front-end 
@@ -18,12 +19,11 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
 <p align="left">
  
- <img align="top" alt="React"  src="https://img.shields.io/badge/-React-0A1516?style=flat&amp;logo=React"/>
- <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-E0231E?style=flat&amp;logo=Next.js"/>
- <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue-0A2516?style=flat&amp;logo=Vue.js"/>
- <img align="top" alt="Solid" style="max-width: 100%" src="https://img.shields.io/badge/-Solid-0A2516?style=flat&amp;logo=Solid"/>
- <img align="top" alt="Svelte" style="max-width: 100%" src="https://img.shields.io/badge/-Svelte-0A2516?style=flat&amp;logo=Svelte"/>
- 
+ <img align="top" alt="React"  src="https://img.shields.io/badge/-React-000000?style=flat&amp;logo=React"/>
+ <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat&amp;logo=Next.js"/>
+ <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-000000?style=flat&amp;logo=Vue.js"/>
+ </br>
+ <img align="top" alt="Flutter"  src="https://img.shields.io/badge/-Flutter-4B80DF?style=flat&amp;logo=Flutter"/>
 </p>
 
 
@@ -35,8 +35,8 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-Actix.rs-910AC1?style=flat&logo=rust"/>
  <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-Nest.js-E0234E?style=flat&logo=NestJS"/>
  <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-Express-0AC16A?style=flat&logo=express"/>
- <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-0A2516?style=flat&amp;logo=go"/>
- <img align="top" alt="Gin" style="max-width: 100%" src="https://img.shields.io/badge/-Gin-0A2516?style=flat&amp;logo=go"/>
+ <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-000000?style=flat&amp;logo=go"/>
+ <img align="top" alt="Gin" style="max-width: 100%" src="https://img.shields.io/badge/-Gin-000000?style=flat&amp;logo=go"/>
  
  
 </p>
@@ -63,6 +63,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  
 <p align="left" >
    <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Git (CI/CD)-080A0D?style=flat&logo=git"/>
+   <img align="top" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
    <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Webpack-080A0D?style=flat&logo=Webpack"/>
    <img align="top" alt="Vite" style="max-width: 100%" src="https://img.shields.io/badge/-Vite-080A0D?style=flat&logo=Vite"/>
    <img align="top" alt="Docker" style="max-width: 100%" src="https://img.shields.io/badge/-Docker-080A0D?style=flat&logo=Docker"/>
