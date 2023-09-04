@@ -33,9 +33,11 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
 
 <p align="left">
- <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-Actix.rs-910AC1?style=flat&logo=rust"/>
+ 
  <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-Nest.js-E0234E?style=flat&logo=NestJS"/>
  <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-Express-0AC16A?style=flat&logo=express"/>
+ </br>
+ <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-Actix.rs-000000?style=flat&logo=rust"/>
  <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-000000?style=flat&amp;logo=go"/>
  <img align="top" alt="Gin" style="max-width: 100%" src="https://img.shields.io/badge/-Gin-000000?style=flat&amp;logo=go"/>
  
