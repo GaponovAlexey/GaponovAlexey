@@ -58,7 +58,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 </p>
 
 
-## Tools and web3 <img  alt="cote" width="26px" src="https://camo.githubusercontent.com/662490d98da872217819984322ada7eabdb0cf406f49e1efbfd6cdc27e164b3e/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313632313032343339342f33393039322f6361742d726f6c6c2e6769663f31363231303234333934" />
+## Tools and web3 
 
 
 
@@ -83,13 +83,14 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
    <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-Telegram.bot-26A5E4?style=flat&logo=telegram"/>
 </p>
 
-
-<div > 
+<details>
+<summary>Leetcode</summary>
+ <div > 
  
   [![LeetCode stats](https://leetcode-stats-six.vercel.app/?username=GaponovAlexey&theme=dark)](https://leetcode.com/GaponovAlexey/)
  <img  alt="cote" width="20%" src="https://github.com/GaponovAlexey/GaponovAlexey/assets/72881348/fa7bfdc6-8114-41d7-818d-0d15d43f21bc" />
 </div> 
-
+</details>
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
 
