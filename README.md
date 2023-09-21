@@ -7,12 +7,13 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
 
 <p>
-<img align="top" alt="JavaScript" style="max-width: 100%" src="https://img.shields.io/badge/-JavaScript-000000?style=flat&amp;logo=JavaScript"/>
-<img align="top" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-TypeScript-000000?style=flat&amp;logo=TypeScript"/>
+<img align="top" alt="JS" style="max-width: 100%" src="https://img.shields.io/badge/-JS-000000?style=flat&amp;logo=JavaScript"/>
+<img align="top" alt="ts" style="max-width: 100%" src="https://img.shields.io/badge/-TS-000000?style=flat&amp;logo=TypeScript"/>
+<img align="top" alt="dart" style="max-width: 100%" src="https://img.shields.io/badge/-Dart-000000?style=flat&amp;logo=Dart"/>
 </br>
 <img align="top" alt="golang" style="max-width: 100%" src="https://img.shields.io/badge/-Go-000000?style=flat&amp;logo=Go"/>
 <img align="top" alt="rust" style="max-width: 100%" src="https://img.shields.io/badge/-Rust-000000?style=flat&amp;logo=Rust"/>
-<img align="top" alt="dart" style="max-width: 100%" src="https://img.shields.io/badge/-Dart-000000?style=flat&amp;logo=Dart"/>
+
 </p>
  
 ### Front-end 
