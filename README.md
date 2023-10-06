@@ -27,7 +27,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  <img align="top" alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat&amp;logo=Next.js"/>
  <img align="top" alt="Vue"  src="https://img.shields.io/badge/-Vue.js-000000?style=flat&amp;logo=Vue.js"/>
  </br>
- <img align="top" alt="Flutter"  src="https://img.shields.io/badge/-Flutter-4B80DF?style=flat&amp;logo=Flutter"/>
+ <img align="top" alt="Flutter"  src="https://img.shields.io/badge/-Flutter-000000?style=flat&amp;logo=Flutter"/>
 </p>
 
 
@@ -37,12 +37,12 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
 <p align="left">
 
- <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-axum-000000?style=flat&logo=rust"/>
- <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-Actix.rs-000000?style=flat&logo=rust"/>
+ <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-Axum-000000?style=flat&logo=rust"/>
+ <img align="top" alt="actix" style="max-width: 100%" src="https://img.shields.io/badge/-Actix-000000?style=flat&logo=rust"/>
  </br>
  
- <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-Nest.js-E0234E?style=flat&logo=NestJS"/>
- <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-Express-0AC16A?style=flat&logo=express"/>
+ <img align="top" alt="NestJS" style="max-width: 100%" src="https://img.shields.io/badge/-Nest.js-000000?style=flat&logo=NestJS"/>
+ <img align="top" alt="express" style="max-width: 100%" src="https://img.shields.io/badge/-Express-000000?style=flat&logo=express"/>
  </br>
  
  <img align="top" alt="echo" style="max-width: 100%" src="https://img.shields.io/badge/-Echo-000000?style=flat&amp;logo=go"/>
@@ -54,13 +54,13 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 ### SQL and NoSQL
 
 <p align="left">
-  <img align="PostgreSQL" alt="PostgreSQL" style="max-width: 100%" src="https://img.shields.io/badge/-PostgreSQL-080A0D?style=flat&logo=PostgreSQL"/>
-  <img align="MySql" alt="MySql" style="max-width: 100%" src="https://img.shields.io/badge/-MySql-080A0D?style=flat&logo=MySql"/>
-  <img align="supabase" alt="supabase" style="max-width: 100%" src="https://img.shields.io/badge/-supabase-080A0D?style=flat&logo=supabase"/>
+  <img align="PostgreSQL" alt="PostgreSQL" style="max-width: 100%" src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=PostgreSQL"/>
+  <img align="MySql" alt="MySql" style="max-width: 100%" src="https://img.shields.io/badge/-MySql-000000?style=flat&logo=MySql"/>
+  <img align="supabase" alt="supabase" style="max-width: 100%" src="https://img.shields.io/badge/-supabase-000000?style=flat&logo=supabase"/>
   <br/>
-  <img align="mongodb" alt="mongodb" style="max-width: 100%" src="https://img.shields.io/badge/-Mongodb-080A0D?style=flat&logo=mongodb"/>
-  <img align="redis" alt="redis" style="max-width: 100%" src="https://img.shields.io/badge/-Redis-080A0D?style=flat&logo=redis"/>
-  <img align="Firebase" alt="Firebase" style="max-width: 100%" src="https://img.shields.io/badge/-Firebase-080A0D?style=flat&logo=Firebase"/>
+  <img align="mongodb" alt="mongodb" style="max-width: 100%" src="https://img.shields.io/badge/-Mongodb-000000?style=flat&logo=mongodb"/>
+  <img align="redis" alt="redis" style="max-width: 100%" src="https://img.shields.io/badge/-Redis-000000?style=flat&logo=redis"/>
+  <img align="Firebase" alt="Firebase" style="max-width: 100%" src="https://img.shields.io/badge/-Firebase-000000?style=flat&logo=Firebase"/>
   <br/>
  
 </p>
@@ -72,23 +72,20 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 
  
 <p align="left" >
-   <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Git (CI/CD)-080A0D?style=flat&logo=git"/>
-   <img align="top" alt="Nodejs" style="max-width: 100%" src="https://img.shields.io/badge/-Nodejs-0A2516?style=flat&amp;logo=Node.js"/>
-   <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Webpack-080A0D?style=flat&logo=Webpack"/>
-   <img align="top" alt="Vite" style="max-width: 100%" src="https://img.shields.io/badge/-Vite-080A0D?style=flat&logo=Vite"/>
-   <img align="top" alt="Docker" style="max-width: 100%" src="https://img.shields.io/badge/-Docker-080A0D?style=flat&logo=Docker"/>
-   <img align="top" alt="k8c" style="max-width: 100%" src="https://img.shields.io/badge/-k8c-080A0D?style=flat&logo=kubernetes"/>  
-   <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-AWS-080A0D?style=flat&logo=amazon"/>
-   <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-DigitalOcean-40E9D0?style=flat&logo=DigitalOcean"/>
-   <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-Vercel-00151A?style=flat&logo=Vercel"/>
-  <img align="rabbitMQ" alt="rabbitMQ" style="max-width: 100%" src="https://img.shields.io/badge/-rabbitMQ-080A0D?style=flat&logo=rabbitMQ"/>
+   <img align="top" alt="git" style="max-width: 100%" src="https://img.shields.io/badge/-Git (CI/CD)-000000?style=flat&logo=git"/>
+   <img align="top" alt="Docker" style="max-width: 100%" src="https://img.shields.io/badge/-Docker-000000?style=flat&logo=Docker"/>
+   <img align="top" alt="k8c" style="max-width: 100%" src="https://img.shields.io/badge/-k8c-000000?style=flat&logo=kubernetes"/>  
+   <img align="top" alt="amazongit" style="max-width: 100%" src="https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazon"/>
+   <img align="top" alt="DigitalOcean" style="max-width: 100%" src="https://img.shields.io/badge/-DigitalOcean-000000?style=flat&logo=DigitalOcean"/>
+   <img align="top" alt="Vercel" style="max-width: 100%" src="https://img.shields.io/badge/-Vercel-000000?style=flat&logo=Vercel"/>
+   <img align="rabbitMQ" alt="rabbitMQ" style="max-width: 100%" src="https://img.shields.io/badge/-rabbitMQ-000000?style=flat&logo=rabbitMQ"/>
    <br/>
-   <img align="web3.js" alt="web3.js" style="max-width: 100%" src="https://img.shields.io/badge/-web3.js-080A0D?style=flat&logo=web3.js"/>
-   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-RainbowKit-E0234E?style=flat&logo=RainbowKit"/>
-   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-wagmi-S1111E?style=flat&logo=wagmi"/>
-   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-Ethers.js-0A1516?style=flat&logo=ethereum"/>
+   <img align="web3.js" alt="web3.js" style="max-width: 100%" src="https://img.shields.io/badge/-web3.js-000000?style=flat&logo=web3.js"/>
+   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-RainbowKit-000000?style=flat&logo=RainbowKit"/>
+   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-wagmi-000000?style=flat&logo=wagmi"/>
+   <img align="RainbowKit" alt="RainbowKit" style="max-width: 100%" src="https://img.shields.io/badge/-Ethers.js-000000?style=flat&logo=ethereum"/>
    <br/>
-   <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-Telegram.bot-26A5E4?style=flat&logo=telegram"/>
+   <img align="top" alt="telegram" style="max-width: 100%" src="https://img.shields.io/badge/-Telegram.bot-000000?style=flat&logo=telegram"/>
 </p>
 
 <details>
