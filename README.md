@@ -1,3 +1,4 @@
+<!--
 <img alt="ad"  align="right" 
 style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" />
 ### Hi, I build things for the web. <img src="https://user-images.githubusercontent.com/72881348/206250286-b8ee1649-935a-44ca-a699-eb29aea1b0e8.gif" width="30" height="40"/>
@@ -104,4 +105,4 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
     <img alt="telegram" width="52px" src="https://user-images.githubusercontent.com/72881348/206057427-a2682b87-c6c4-4a8f-b833-35733e0c7290.png "  />
  </a>
 </p>
-
+-->
