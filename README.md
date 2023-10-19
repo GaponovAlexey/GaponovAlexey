@@ -98,7 +98,7 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
 </div> 
 </details>
 
-![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
+
 
 <p align="left" >
  <a href="https://www.linkedin.com/in/gaponovalexey/" >
@@ -109,3 +109,4 @@ style="width: auto;"     src="https://camo.githubusercontent.com/63371d36886ee65
  </a>
 </p>
 -->
+![](https://komarev.com/ghpvc/?username=GaponovAlexey) 
