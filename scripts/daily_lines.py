@@ -113,7 +113,7 @@ def update_readme(svg_content):
     start_marker = "<!-- DAILY_LINES_START -->"
     end_marker = "<!-- DAILY_LINES_END -->"
 
-    block = f"{start_marker}\n{svg_content}\n{end_marker}"
+        block = f"{start_marker}\n<img src=\"img/daily_lines.svg\" alt=\"Daily Lines Added\" width=\"700\">\n{end_marker}"
 
     if start_marker in content:
         import re
