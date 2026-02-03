@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 Daily Lines Counter - generates SVG bar chart of daily lines added.
-Runs via GitHub Actions, updates README with inline SVG.
+Runs via GitHub Actions, updates README with img tag pointing to SVG.
 """
 import os
+import re
 import json
 import urllib.request
 import urllib.error
@@ -78,7 +79,6 @@ def generate_svg(data):
         y = pad_top + i * (bar_h + gap)
         bw = int((val / max_val) * bar_area) if val > 0 else 0
 
-        # determine bar color by intensity
         ratio = val / max_val if max_val > 0 else 0
         if ratio > 0.75:
             color = "#39d353"
@@ -91,14 +91,10 @@ def generate_svg(data):
         else:
             color = "#161b22"
 
-        # date label
         lines.append(f'<text x="{pad_left - 8}" y="{y + bar_h - 6}" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">{label}</text>')
-        # bar bg
         lines.append(f'<rect x="{pad_left}" y="{y}" width="{bar_area}" height="{bar_h}" rx="4" fill="#161b22"/>')
-        # bar
         if bw > 0:
             lines.append(f'<rect x="{pad_left}" y="{y}" width="{bw}" height="{bar_h}" rx="4" fill="{color}"/>')
-        # value
         lines.append(f'<text x="{pad_left + bar_area + 8}" y="{y + bar_h - 6}" fill="#58a6ff" font-family="monospace" font-size="12">{val:,}</text>')
 
     lines.append("</svg>")
@@ -113,10 +109,10 @@ def update_readme(svg_content):
     start_marker = "<!-- DAILY_LINES_START -->"
     end_marker = "<!-- DAILY_LINES_END -->"
 
-            k = f"{start_marker}\n<img src=\"img/daily_lines.svg\" alt=\"Daily Lines Added\" width=\"700\">\n{end_marker}"
+    img_tag = '<img src="img/daily_lines.svg" alt="Daily Lines Added" width="700">'
+    block = f"{start_marker}\n{img_tag}\n{end_marker}"
 
     if start_marker in content:
-        import re
         content = re.sub(
             f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
             block,
