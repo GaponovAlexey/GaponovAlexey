@@ -3,65 +3,7 @@ Indie developer from Ukraine 🇺🇦 based in Canada
 Here I share: weekly wins, lessons learned, and how I balance code.
 
 <!-- DAILY_LINES_START -->
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="452" viewBox="0 0 700 452">
-<rect width="700" height="452" rx="12" fill="#0d1117"/>
-<text x="350" y="24" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">Daily Lines Added (last 14 days)</text>
-<text x="62" y="56" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 21</text>
-<rect x="70" y="40" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="40" width="570" height="22" rx="4" fill="#39d353"/>
-<text x="648" y="56" fill="#58a6ff" font-family="monospace" font-size="12">13,863</text>
-<text x="62" y="84" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 22</text>
-<rect x="70" y="68" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="68" width="58" height="22" rx="4" fill="#0e4429"/>
-<text x="648" y="84" fill="#58a6ff" font-family="monospace" font-size="12">1,431</text>
-<text x="62" y="112" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 23</text>
-<rect x="70" y="96" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="96" width="341" height="22" rx="4" fill="#26a641"/>
-<text x="648" y="112" fill="#58a6ff" font-family="monospace" font-size="12">8,312</text>
-<text x="62" y="140" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 24</text>
-<rect x="70" y="124" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="124" width="252" height="22" rx="4" fill="#006d32"/>
-<text x="648" y="140" fill="#58a6ff" font-family="monospace" font-size="12">6,142</text>
-<text x="62" y="168" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 25</text>
-<rect x="70" y="152" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="152" width="319" height="22" rx="4" fill="#26a641"/>
-<text x="648" y="168" fill="#58a6ff" font-family="monospace" font-size="12">7,774</text>
-<text x="62" y="196" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 26</text>
-<rect x="70" y="180" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="180" width="377" height="22" rx="4" fill="#26a641"/>
-<text x="648" y="196" fill="#58a6ff" font-family="monospace" font-size="12">9,174</text>
-<text x="62" y="224" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 27</text>
-<rect x="70" y="208" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="208" width="395" height="22" rx="4" fill="#26a641"/>
-<text x="648" y="224" fill="#58a6ff" font-family="monospace" font-size="12">9,621</text>
-<text x="62" y="252" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 28</text>
-<rect x="70" y="236" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="236" width="497" height="22" rx="4" fill="#39d353"/>
-<text x="648" y="252" fill="#58a6ff" font-family="monospace" font-size="12">12,088</text>
-<text x="62" y="280" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 29</text>
-<rect x="70" y="264" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="264" width="132" height="22" rx="4" fill="#0e4429"/>
-<text x="648" y="280" fill="#58a6ff" font-family="monospace" font-size="12">3,212</text>
-<text x="62" y="308" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 30</text>
-<rect x="70" y="292" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="292" width="158" height="22" rx="4" fill="#006d32"/>
-<text x="648" y="308" fill="#58a6ff" font-family="monospace" font-size="12">3,856</text>
-<text x="62" y="336" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 31</text>
-<rect x="70" y="320" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="320" width="9" height="22" rx="4" fill="#0e4429"/>
-<text x="648" y="336" fill="#58a6ff" font-family="monospace" font-size="12">240</text>
-<text x="62" y="364" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 01</text>
-<rect x="70" y="348" width="570" height="22" rx="4" fill="#161b22"/>
-<text x="648" y="364" fill="#58a6ff" font-family="monospace" font-size="12">4</text>
-<text x="62" y="392" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 02</text>
-<rect x="70" y="376" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="376" width="199" height="22" rx="4" fill="#006d32"/>
-<text x="648" y="392" fill="#58a6ff" font-family="monospace" font-size="12">4,859</text>
-<text x="62" y="420" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 03</text>
-<rect x="70" y="404" width="570" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="404" width="57" height="22" rx="4" fill="#0e4429"/>
-<text x="648" y="420" fill="#58a6ff" font-family="monospace" font-size="12">1,387</text>
-</svg>
+<img src="img/daily_lines.svg" alt="Daily Lines Added" width="700">
 <!-- DAILY_LINES_END -->
 
 ![](https://komarev.com/ghpvc/?username=GaponovAlexey)
