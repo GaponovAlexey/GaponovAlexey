@@ -59,7 +59,7 @@ def get_daily_additions(repo_name, date_str):
 
 def generate_svg(data):
     """Generate dark-themed SVG bar chart. data = [(label, value), ...]"""
-    w = 700
+    w = 1000
     bar_h = 22
     gap = 6
     pad_left = 70
