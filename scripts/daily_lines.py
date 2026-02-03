@@ -109,7 +109,7 @@ def update_readme(svg_content):
     start_marker = "<!-- DAILY_LINES_START -->"
     end_marker = "<!-- DAILY_LINES_END -->"
 
-    img_tag = '<img src="img/daily_lines.svg" alt="Daily Lines Added" width="700">'
+    img_tag = '<img src="img/daily_lines.svg" alt="Daily Lines Added" width="100%">'
     block = f"{start_marker}\n{img_tag}\n{end_marker}"
 
     if start_marker in content:
@@ -132,7 +132,7 @@ def main():
     repo_names = [r["name"] for r in repos if not r.get("fork")]
     print(f"Found {len(repo_names)} repos")
 
-    today = datetime.utcnow().date()
+    today = (datetime.utcnow() - timedelta(hours=6)).date()
     data = []
 
     for d in range(DAYS - 1, -1, -1):
