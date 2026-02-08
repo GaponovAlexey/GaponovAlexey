@@ -45,7 +45,7 @@ def get_daily_additions(repo_name, date_str):
     until = f"{next_day}T00:00:00Z"
     commits = api(
         f"https://api.github.com/repos/{USER}/{repo_name}/commits"
-        f"?author={USER}&since={since}&until={until}&per_page=100"
+                f"?since={since}&until={until}&per_page=100"
     )
     if not commits:
         return 0
