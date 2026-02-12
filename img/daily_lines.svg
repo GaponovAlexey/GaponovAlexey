@@ -3,57 +3,57 @@
 <text x="500" y="24" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">Daily Lines Added (last 14 days)</text>
 <text x="62" y="56" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 30</text>
 <rect x="70" y="40" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="40" width="231" height="22" rx="4" fill="#006d32"/>
+<rect x="70" y="40" width="165" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="56" fill="#58a6ff" font-family="monospace" font-size="12">3,856</text>
 <text x="62" y="84" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Jan 31</text>
 <rect x="70" y="68" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="68" width="14" height="22" rx="4" fill="#0e4429"/>
+<rect x="70" y="68" width="10" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="84" fill="#58a6ff" font-family="monospace" font-size="12">240</text>
 <text x="62" y="112" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 01</text>
 <rect x="70" y="96" width="870" height="22" rx="4" fill="#161b22"/>
 <text x="948" y="112" fill="#58a6ff" font-family="monospace" font-size="12">4</text>
 <text x="62" y="140" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 02</text>
 <rect x="70" y="124" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="124" width="291" height="22" rx="4" fill="#006d32"/>
+<rect x="70" y="124" width="208" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="140" fill="#58a6ff" font-family="monospace" font-size="12">4,859</text>
 <text x="62" y="168" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 03</text>
 <rect x="70" y="152" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="152" width="561" height="22" rx="4" fill="#26a641"/>
+<rect x="70" y="152" width="400" height="22" rx="4" fill="#006d32"/>
 <text x="948" y="168" fill="#58a6ff" font-family="monospace" font-size="12">9,355</text>
 <text x="62" y="196" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 04</text>
 <rect x="70" y="180" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="180" width="421" height="22" rx="4" fill="#006d32"/>
+<rect x="70" y="180" width="300" height="22" rx="4" fill="#006d32"/>
 <text x="948" y="196" fill="#58a6ff" font-family="monospace" font-size="12">7,016</text>
 <text x="62" y="224" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 05</text>
 <rect x="70" y="208" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="208" width="300" height="22" rx="4" fill="#006d32"/>
+<rect x="70" y="208" width="214" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="224" fill="#58a6ff" font-family="monospace" font-size="12">4,999</text>
 <text x="62" y="252" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 06</text>
 <rect x="70" y="236" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="236" width="385" height="22" rx="4" fill="#006d32"/>
+<rect x="70" y="236" width="274" height="22" rx="4" fill="#006d32"/>
 <text x="948" y="252" fill="#58a6ff" font-family="monospace" font-size="12">6,422</text>
 <text x="62" y="280" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 07</text>
 <rect x="70" y="264" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="264" width="156" height="22" rx="4" fill="#0e4429"/>
+<rect x="70" y="264" width="111" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="280" fill="#58a6ff" font-family="monospace" font-size="12">2,604</text>
 <text x="62" y="308" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 08</text>
 <rect x="70" y="292" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="292" width="42" height="22" rx="4" fill="#0e4429"/>
+<rect x="70" y="292" width="30" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="308" fill="#58a6ff" font-family="monospace" font-size="12">701</text>
 <text x="62" y="336" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 09</text>
 <rect x="70" y="320" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="320" width="427" height="22" rx="4" fill="#006d32"/>
+<rect x="70" y="320" width="304" height="22" rx="4" fill="#006d32"/>
 <text x="948" y="336" fill="#58a6ff" font-family="monospace" font-size="12">7,122</text>
 <text x="62" y="364" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 10</text>
 <rect x="70" y="348" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="348" width="210" height="22" rx="4" fill="#0e4429"/>
+<rect x="70" y="348" width="149" height="22" rx="4" fill="#0e4429"/>
 <text x="948" y="364" fill="#58a6ff" font-family="monospace" font-size="12">3,498</text>
 <text x="62" y="392" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 11</text>
 <rect x="70" y="376" width="870" height="22" rx="4" fill="#161b22"/>
-<rect x="70" y="376" width="157" height="22" rx="4" fill="#0e4429"/>
-<text x="948" y="392" fill="#58a6ff" font-family="monospace" font-size="12">2,616</text>
+<rect x="70" y="376" width="228" height="22" rx="4" fill="#006d32"/>
+<text x="948" y="392" fill="#58a6ff" font-family="monospace" font-size="12">5,333</text>
 <text x="62" y="420" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="12">Feb 12</text>
 <rect x="70" y="404" width="870" height="22" rx="4" fill="#161b22"/>
 <rect x="70" y="404" width="870" height="22" rx="4" fill="#39d353"/>
-<text x="948" y="420" fill="#58a6ff" font-family="monospace" font-size="12">14,483</text>
+<text x="948" y="420" fill="#58a6ff" font-family="monospace" font-size="12">20,317</text>
 </svg>
