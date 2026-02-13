@@ -1,8 +1,8 @@
-name: Daily Lines Stats
+hname: Daily Lines Stats
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Runs at every 3 hours
+    - cron: '0 0 * * *' # # Runs once daily at midnight UTC
   workflow_dispatch: # Manual trigger
 
 jobs:
