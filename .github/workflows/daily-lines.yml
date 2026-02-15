@@ -1,4 +1,4 @@
-hname: Daily Lines Stats
+name: Daily Lines Stats
 
 on:
   schedule:
