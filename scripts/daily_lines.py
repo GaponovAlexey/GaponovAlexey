@@ -163,4 +163,19 @@ def main():
     print("Done!")
 
 if __name__ == "__main__":
+        # Check if README has data - if empty, run immediately; otherwise run on schedule
+        readme_path = "README.md"
+        try:
+                    with open(readme_path, "r") as f:
+                                    content = f.read()
+                                # Check if the SVG placeholder exists and has content
+        if "<!-- DAILY_LINES_START -->" not in content or "<!-- DAILY_LINES_END -->" not in content:
+                        print("⚡ No data found! Running immediately...")
+                        main()
+        else:
+                        # Data exists, this will be run by GitHub Actions on schedule
+                        print("✓ Data exists. This runs on schedule via GitHub Actions.")
+except FileNotFoundError:
+        print("⚡ README not found! Running immediately...")
+        main()
     main()
