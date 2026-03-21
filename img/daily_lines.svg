@@ -1,33 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 328">
-<text x="52" y="18" font-family="monospace" font-size="10" fill="#484f58" letter-spacing="0.1em" opacity="0.6">DAILY LINES ADDED</text>
-<text x="46" y="40" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 08</text>
-<rect x="52" y="34" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="60" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 09</text>
-<rect x="52" y="54" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="80" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 10</text>
-<rect x="52" y="74" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="100" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 11</text>
-<rect x="52" y="94" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="120" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 12</text>
-<rect x="52" y="114" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="140" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 13</text>
-<rect x="52" y="134" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="160" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 14</text>
-<rect x="52" y="154" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="180" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 15</text>
-<rect x="52" y="174" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="200" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 16</text>
-<rect x="52" y="194" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="220" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 17</text>
-<rect x="52" y="214" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="240" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 18</text>
-<rect x="52" y="234" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="260" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 19</text>
-<rect x="52" y="254" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="280" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 20</text>
-<rect x="52" y="274" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<text x="46" y="300" font-family="monospace" font-size="10" fill="#484f58" text-anchor="end" opacity="0.5">Mar 21</text>
-<rect x="52" y="294" width="580" height="2" fill="#21262d" opacity="0.4"/>
-<rect x="52" y="292" width="580" height="6" rx="1" fill="#3fb950"/>
-<text x="638" y="300" font-family="monospace" font-size="10" fill="#3fb950" text-anchor="start">319</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 320">
+<text x="46" y="34.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 08</text>
+<rect x="52" y="29.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="54.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 09</text>
+<rect x="52" y="49.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="74.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 10</text>
+<rect x="52" y="69.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="94.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 11</text>
+<rect x="52" y="89.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="114.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 12</text>
+<rect x="52" y="109.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="134.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 13</text>
+<rect x="52" y="129.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="154.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 14</text>
+<rect x="52" y="149.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="174.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 15</text>
+<rect x="52" y="169.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="194.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 16</text>
+<rect x="52" y="189.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="214.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 17</text>
+<rect x="52" y="209.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="234.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 18</text>
+<rect x="52" y="229.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="254.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 19</text>
+<rect x="52" y="249.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="274.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 20</text>
+<rect x="52" y="269.0" width="584" height="2" fill="#1c2128"/>
+<text x="46" y="294.0" font-family="monospace" font-size="9" fill="#484f58" text-anchor="end">Mar 21</text>
+<rect x="52" y="289.0" width="584" height="2" fill="#1c2128"/>
+<rect x="52" y="288" width="584" height="4" rx="1" fill="#3fb950"/>
+<text x="641" y="294.0" font-family="monospace" font-size="9" fill="#3fb950" text-anchor="start">437</text>
 </svg>
