@@ -1,53 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 272">
-<text x="32" y="114" font-family="monospace" font-size="9" fill="#484f58" opacity="0.4">2025</text>
-<rect x="60" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="82" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Jan</text>
-<rect x="112" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="134" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Feb</text>
-<rect x="164" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="186" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Mar</text>
-<rect x="216" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="238" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Apr</text>
-<rect x="268" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="290" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">May</text>
-<rect x="320" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="342" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Jun</text>
-<rect x="372" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="394" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Jul</text>
-<rect x="424" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="446" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Aug</text>
-<rect x="476" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="498" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Sep</text>
-<rect x="528" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="550" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Oct</text>
-<rect x="580" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="602" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Nov</text>
-<rect x="632" y="98" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="654" y="113" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Dec</text>
-<text x="32" y="242" font-family="monospace" font-size="9" fill="#484f58" opacity="0.4">2026</text>
-<rect x="60" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="82" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Jan</text>
-<rect x="112" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.5"/>
-<text x="134" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Feb</text>
-<rect x="164" y="148" width="44" height="80" rx="2" fill="#3fb950" opacity="1"/>
-<text x="186" y="145" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">670</text>
-<text x="186" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Mar</text>
-<rect x="216" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="238" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Apr</text>
-<rect x="268" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="290" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">May</text>
-<rect x="320" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="342" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Jun</text>
-<rect x="372" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="394" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Jul</text>
-<rect x="424" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="446" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Aug</text>
-<rect x="476" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="498" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Sep</text>
-<rect x="528" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="550" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Oct</text>
-<rect x="580" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="602" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Nov</text>
-<rect x="632" y="226" width="44" height="2" rx="2" fill="#1c2128" opacity="0.3"/>
-<text x="654" y="241" font-family="monospace" font-size="8" fill="#484f58" text-anchor="middle" opacity="0.5">Dec</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 204">
+<rect x="32" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="1"/>
+<text x="55" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jan</text>
+<rect x="85" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="1"/>
+<text x="108" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Feb</text>
+<rect x="138" y="16" width="47" height="70" rx="2" fill="#3fb950" opacity="1"/>
+<text x="161" y="13" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">876</text>
+<text x="161" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Mar</text>
+<rect x="191" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="214" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Apr</text>
+<rect x="244" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="267" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">May</text>
+<rect x="297" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="320" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jun</text>
+<rect x="350" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="373" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jul</text>
+<rect x="403" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="426" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Aug</text>
+<rect x="456" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="479" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sep</text>
+<rect x="509" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="532" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Oct</text>
+<rect x="562" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="585" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Nov</text>
+<rect x="615" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
+<text x="638" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Dec</text>
+<line x1="32" y1="114" x2="664" y2="114" stroke="#21262d" stroke-width="1" opacity="0.6"/>
+<rect x="32" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<text x="73" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
+<rect x="123" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<text x="164" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Mon</text>
+<rect x="214" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<text x="255" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Tue</text>
+<rect x="305" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<text x="346" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
+<rect x="396" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<text x="437" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Thu</text>
+<rect x="487" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Fri</text>
+<rect x="578" y="126" width="83" height="48" rx="2" fill="#3fb950"/>
+<text x="619" y="123" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">861</text>
+<text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
 </svg>
