@@ -2,8 +2,9 @@
 """
 Daily Lines Counter
 Usage:
-  python daily_lines.py             # daily mode: last 14 days
-  python daily_lines.py --backfill  # backfill mode: last 90 days
+  python daily_lines.py             # daily update: last 14 days + rebuild SVG
+  python daily_lines.py --backfill  # scan last 365 days (first run)
+  python daily_lines.py --debug     # print all author names found (for setup)
 """
 
 import os
@@ -14,20 +15,24 @@ import urllib.request
 import urllib.error
 import time
 from datetime import datetime, timedelta
+from collections import defaultdict
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 USER = "GaponovAlexey"
-# Match commits by these author names (add your local git name if different)
-AUTHOR_NAMES = {"gaponovalexey", "alexey", "alexey gaponov"}
-DAYS = 90 if "--backfill" in sys.argv else 14
+
+# All name variants from your git commits (run --debug to discover)
+AUTHOR_NAMES = {"gaponovalexey", "alexey", "alexey gaponov", "gaponov alexey"}
+
+BACKFILL = "--backfill" in sys.argv
+DEBUG    = "--debug" in sys.argv
+DAYS     = 365 if BACKFILL else 14
 MAX_REPOS = 30
 
 HEADERS = {"Accept": "application/vnd.github.v3+json"}
 if TOKEN:
     HEADERS["Authorization"] = f"token {TOKEN}"
-    print("Using GH_TOKEN for authentication.")
 else:
-    print("Warning: No GH_TOKEN. Rate limits will be very low.")
+    print("Warning: No GH_TOKEN")
 
 SKIP_MESSAGES = [
     "update daily lines stats",
@@ -38,6 +43,7 @@ SKIP_MESSAGES = [
     "github actions",
 ]
 
+# ── helpers ──────────────────────────────────────────────────────────────────
 
 def api(url):
     req = urllib.request.Request(url, headers=HEADERS)
@@ -47,15 +53,15 @@ def api(url):
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
             if e.code == 403:
-                print(f"  Rate limit. Waiting 20s... ({attempt+1}/3)")
+                print(f"  rate limit, wait 20s ({attempt+1}/3)")
                 time.sleep(20)
                 continue
-            if e.code in (404, 409):
+            if e.code in (404, 409, 422):
                 return None
             print(f"  HTTP {e.code}: {url}")
             return None
         except Exception as ex:
-            print(f"  Error: {ex}")
+            print(f"  err: {ex}")
             return None
     return None
 
@@ -63,135 +69,197 @@ def api(url):
 def get_repos():
     repos = []
     if TOKEN:
-        data = api("https://api.github.com/user/repos?affiliation=owner&sort=pushed&direction=desc&per_page=100")
-        if data:
-            repos = [r for r in data if not r.get("fork")]
+        d = api("https://api.github.com/user/repos?affiliation=owner&sort=pushed&direction=desc&per_page=100")
+        if d:
+            repos = [r for r in d if not r.get("fork")]
     if not repos:
-        data = api(f"https://api.github.com/users/{USER}/repos?type=owner&sort=pushed&direction=desc&per_page=100")
-        if data:
-            repos = [r for r in data if not r.get("fork")]
+        d = api(f"https://api.github.com/users/{USER}/repos?type=owner&sort=pushed&direction=desc&per_page=100")
+        if d:
+            repos = [r for r in d if not r.get("fork")]
     repos.sort(key=lambda x: x.get("pushed_at", ""), reverse=True)
-    result = repos[:MAX_REPOS]
-    print(f"Found {len(result)} repos")
-    return result
+    return repos[:MAX_REPOS]
 
 
-def is_my_commit(commit):
-    """Check if commit belongs to me by GitHub login or author name."""
-    # Check GitHub login association
-    author_obj = commit.get("author")
-    if author_obj and isinstance(author_obj, dict):
-        login = author_obj.get("login", "").lower()
-        if login == USER.lower():
-            return True
-
-    # Check commit author name
-    commit_data = commit.get("commit", {})
-    author_name = commit_data.get("author", {}).get("name", "").lower()
-    if author_name in AUTHOR_NAMES:
+def is_mine(commit):
+    # by GitHub login
+    a = commit.get("author")
+    if a and isinstance(a, dict) and a.get("login", "").lower() == USER.lower():
         return True
+    # by commit author name
+    name = commit.get("commit", {}).get("author", {}).get("name", "").lower()
+    return name in AUTHOR_NAMES
 
-    return False
 
-
-def should_skip(message):
-    if not message:
-        return False
-    m = message.lower().strip()
+def skip_msg(msg):
+    m = (msg or "").lower().strip()
     return any(s in m for s in SKIP_MESSAGES)
 
 
-def get_repo_additions(repo_full_name, since_str, until_str):
-    """Get total lines added by me in a repo between since and until."""
-    url = (
-        f"https://api.github.com/repos/{repo_full_name}/commits"
-        f"?since={since_str}&until={until_str}&per_page=100"
-    )
-    commits = api(url)
-    if not commits or not isinstance(commits, list):
-        return 0
+# ── data collection ───────────────────────────────────────────────────────────
 
-    total = 0
-    for c in commits:
-        if not is_my_commit(c):
+def collect(repos, days):
+    today = datetime.utcnow().date()
+    stats = defaultdict(int)
+    author_names_seen = set()
+
+    for repo in repos:
+        rname = repo["full_name"]
+        pushed = (repo.get("pushed_at") or "")[:10]
+        cutoff = (today - timedelta(days=days)).strftime("%Y-%m-%d")
+
+        # skip repo entirely if not touched in our window
+        if pushed and pushed < cutoff:
             continue
-        msg = c.get("commit", {}).get("message", "")
-        if should_skip(msg):
+
+        print(f"→ {rname}")
+
+        since_dt = today - timedelta(days=days)
+        url = (
+            f"https://api.github.com/repos/{rname}/commits"
+            f"?since={since_dt}T00:00:00Z&per_page=100"
+        )
+        commits = api(url)
+        if not commits or not isinstance(commits, list):
             continue
-        sha = c["sha"]
-        detail = api(f"https://api.github.com/repos/{repo_full_name}/commits/{sha}")
-        if detail and "stats" in detail:
-            additions = detail["stats"].get("additions", 0)
-            if additions > 0:
-                short = msg.split("\n")[0][:40]
-                print(f"    +{additions} [{short}]")
-            total += additions
-    return total
+
+        for c in commits:
+            # collect all names for --debug
+            if DEBUG:
+                name = c.get("commit", {}).get("author", {}).get("name", "")
+                login = (c.get("author") or {}).get("login", "")
+                author_names_seen.add(f"{name!r} / login={login!r}")
+
+            if not is_mine(c):
+                continue
+            msg = c.get("commit", {}).get("message", "")
+            if skip_msg(msg):
+                continue
+
+            date_str = c["commit"]["author"]["date"][:10]
+            sha = c["sha"]
+            detail = api(f"https://api.github.com/repos/{rname}/commits/{sha}")
+            if detail and "stats" in detail:
+                adds = detail["stats"].get("additions", 0)
+                if adds:
+                    short = msg.split("\n")[0][:40]
+                    print(f"  {date_str} +{adds:,}  {short}")
+                stats[date_str] += adds
+
+    if DEBUG and author_names_seen:
+        print("\n=== Author names found in your repos ===")
+        for n in sorted(author_names_seen):
+            print(" ", n)
+
+    return stats
 
 
-def generate_svg(data):
-    w = 680
-    bar_h = 4
-    gap = 16
-    pad_left = 52
-    pad_right = 44
-    pad_top = 28
-    h = pad_top + len(data) * (bar_h + gap) + 12
+# ── SVG: two-year monthly column chart ───────────────────────────────────────
 
-    max_val = max((v for _, v in data), default=0)
-    max_scale = max_val if max_val > 0 else 1
-    bar_area = w - pad_left - pad_right
+def generate_svg(stats):
+    """
+    Two rows of month columns (prev year / current year).
+    Each column = one month, height proportional to total lines that month.
+    """
+    today = datetime.utcnow().date()
+    cur_year  = today.year
+    prev_year = cur_year - 1
+
+    # aggregate by month
+    monthly = defaultdict(int)
+    for date_str, val in stats.items():
+        ym = date_str[:7]  # "2025-03"
+        monthly[ym] += val
+
+    months = [f"{m:02d}" for m in range(1, 13)]
+
+    def month_label(m):
+        return datetime(2000, int(m), 1).strftime("%b")
+
+    # dimensions
+    W        = 680
+    col_w    = 44
+    col_gap  = 8
+    row_gap  = 28
+    pad_l    = 32
+    pad_top  = 20
+    bar_max  = 80   # max bar height px
+    row_h    = bar_max + 20   # bar + label below
+    H        = pad_top + row_h * 2 + row_gap + 24
+
+    all_vals = [monthly.get(f"{y}-{m}", 0) for y in (prev_year, cur_year) for m in months]
+    max_val  = max(all_vals) if any(all_vals) else 1
 
     out = []
-    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {w} {h}">')
+    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {W} {H}">')
 
-    for i, (label, val) in enumerate(data):
-        y = pad_top + i * (bar_h + gap)
-        mid = y + bar_h / 2
+    for row_i, year in enumerate((prev_year, cur_year)):
+        row_y = pad_top + row_i * (row_h + row_gap)
 
-        bw = int((val / max_scale) * bar_area) if val > 0 else 0
-
-        if val == 0:
-            fill = "#1c2128"
-            num_fill = "none"
-        elif val / max_scale > 0.6:
-            fill = "#3fb950"
-            num_fill = "#3fb950"
-        elif val / max_scale > 0.2:
-            fill = "#238636"
-            num_fill = "#238636"
-        else:
-            fill = "#1a7f37"
-            num_fill = "#6e7681"
-
-        # date label
+        # year label
         out.append(
-            f'<text x="{pad_left - 6}" y="{mid + 4}" '
-            f'font-family="monospace" font-size="9" '
-            f'fill="#484f58" text-anchor="end">{label}</text>'
+            f'<text x="{pad_l}" y="{row_y + bar_max + 14}" '
+            f'font-family="monospace" font-size="9" fill="#484f58" opacity="0.4">{year}</text>'
         )
-        # track
-        out.append(
-            f'<rect x="{pad_left}" y="{mid - 1}" '
-            f'width="{bar_area}" height="2" fill="#1c2128"/>'
-        )
-        # bar
-        if bw > 0:
+
+        for col_i, m in enumerate(months):
+            ym  = f"{year}-{m}"
+            val = monthly.get(ym, 0)
+            x   = pad_l + 28 + col_i * (col_w + col_gap)
+            bh  = max(2, int((val / max_val) * bar_max)) if val > 0 else 2
+            by  = row_y + bar_max - bh
+
+            # is this month in the future?
+            future = (year == cur_year and
+                      int(m) > today.month)
+
+            if future:
+                bar_fill  = "#1c2128"
+                text_fill = "#30363d"
+                opacity   = "0.3"
+            elif val == 0:
+                bar_fill  = "#1c2128"
+                text_fill = "#484f58"
+                opacity   = "0.5"
+            elif val / max_val > 0.6:
+                bar_fill  = "#3fb950"
+                text_fill = "#3fb950"
+                opacity   = "1"
+            elif val / max_val > 0.2:
+                bar_fill  = "#238636"
+                text_fill = "#238636"
+                opacity   = "1"
+            else:
+                bar_fill  = "#1a7f37"
+                text_fill = "#6e7681"
+                opacity   = "1"
+
+            # bar
             out.append(
-                f'<rect x="{pad_left}" y="{y}" '
-                f'width="{bw}" height="{bar_h}" rx="1" fill="{fill}"/>'
+                f'<rect x="{x}" y="{by}" width="{col_w}" height="{bh}" '
+                f'rx="2" fill="{bar_fill}" opacity="{opacity}"/>'
             )
-        # value
-        if val > 0 and num_fill != "none":
+
+            # value on top of bar (skip zeros and future)
+            if val > 0 and not future:
+                label_val = f"{val//1000}k" if val >= 1000 else str(val)
+                out.append(
+                    f'<text x="{x + col_w//2}" y="{by - 3}" '
+                    f'font-family="monospace" font-size="8" fill="{text_fill}" '
+                    f'text-anchor="middle">{label_val}</text>'
+                )
+
+            # month label below bar
             out.append(
-                f'<text x="{pad_left + bar_area + 5}" y="{mid + 4}" '
-                f'font-family="monospace" font-size="9" '
-                f'fill="{num_fill}" text-anchor="start">{val:,}</text>'
+                f'<text x="{x + col_w//2}" y="{row_y + bar_max + 13}" '
+                f'font-family="monospace" font-size="8" fill="#484f58" '
+                f'text-anchor="middle" opacity="0.5">{month_label(m)}</text>'
             )
 
     out.append("</svg>")
     return "\n".join(out)
 
+
+# ── readme ────────────────────────────────────────────────────────────────────
 
 def update_readme():
     path = "README.md"
@@ -204,67 +272,56 @@ def update_readme():
     img = '<img src="img/daily_lines.svg" alt="Daily Lines Added" width="100%">'
     block = f"{s}\n{img}\n{e}"
     if s in content:
-        content = re.sub(
-            f"{re.escape(s)}.*?{re.escape(e)}", block, content, flags=re.DOTALL
-        )
+        content = re.sub(f"{re.escape(s)}.*?{re.escape(e)}", block, content, flags=re.DOTALL)
     else:
         content += f"\n\n{block}\n"
     with open(path, "w") as f:
         f.write(content)
 
 
+# ── main ──────────────────────────────────────────────────────────────────────
+
 def main():
-    backfill = "--backfill" in sys.argv
-    print(f"Mode: {'BACKFILL 90 days' if backfill else 'DAILY 14 days'}")
+    mode = "BACKFILL 365d" if BACKFILL else ("DEBUG" if DEBUG else "DAILY 14d")
+    print(f"Mode: {mode}  user={USER}")
 
     repos = get_repos()
-    today = datetime.utcnow().date()
+    print(f"Repos: {len(repos)}")
 
-    daily_stats = {}
-    for d in range(DAYS):
-        date = today - timedelta(days=d)
-        daily_stats[date.strftime("%Y-%m-%d")] = 0
+    # Load existing cache if daily mode (don't rescan old data)
+    cache_path = "img/daily_lines_cache.json"
+    stats = defaultdict(int)
 
-    for repo in repos:
-        rname = repo["full_name"]
-        pushed = repo.get("pushed_at", "")
-        print(f"\n→ {rname}  (pushed {pushed[:10]})")
-        for date_str in list(daily_stats.keys()):
-            next_day = (
-                datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)
-            ).strftime("%Y-%m-%d")
-            since = f"{date_str}T00:00:00Z"
-            until = f"{next_day}T00:00:00Z"
-            # Skip repo if it was last pushed before this date
-            if pushed and pushed[:10] < date_str:
-                continue
-            adds = get_repo_additions(rname, since, until)
-            if adds:
-                print(f"  {date_str}: +{adds}")
-            daily_stats[date_str] += adds
+    if not BACKFILL and os.path.exists(cache_path):
+        with open(cache_path) as f:
+            cached = json.load(f)
+        for k, v in cached.items():
+            stats[k] = v
+        print(f"Loaded {len(stats)} days from cache")
 
-    sorted_dates = sorted(daily_stats.keys())
-    display_dates = sorted_dates[-14:]
+    # Collect new data
+    new_stats = collect(repos, DAYS)
+    for k, v in new_stats.items():
+        stats[k] = max(stats.get(k, 0), v)
 
-    print("\n--- Summary ---")
-    for d in sorted_dates:
-        label = datetime.strptime(d, "%Y-%m-%d").strftime("%b %d")
-        v = daily_stats[d]
-        bar = "█" * min(40, v // 10) if v else ""
-        print(f"{label}: {v:>6,}  {bar}")
-
-    data = [
-        (datetime.strptime(d, "%Y-%m-%d").strftime("%b %d"), daily_stats[d])
-        for d in display_dates
-    ]
-
-    svg = generate_svg(data)
+    # Save cache
     os.makedirs("img", exist_ok=True)
+    with open(cache_path, "w") as f:
+        json.dump(dict(stats), f, indent=2)
+
+    # Print summary
+    print("\n--- Summary (non-zero) ---")
+    for d in sorted(stats):
+        v = stats[d]
+        if v:
+            print(f"  {d}: {v:,}")
+
+    svg = generate_svg(stats)
     with open("img/daily_lines.svg", "w") as f:
         f.write(svg)
 
     update_readme()
-    print("\nDone! img/daily_lines.svg updated.")
+    print("\nDone!")
 
 
 if __name__ == "__main__":
