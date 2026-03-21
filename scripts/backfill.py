@@ -96,8 +96,7 @@ def main():
     for repo in repos:
         rname  = repo["full_name"]
         pushed = (repo.get("pushed_at") or "")[:10]
-        if pushed and pushed < cutoff:
-            continue
+
 
         print(f"→ {rname}  (last push: {pushed})")
 
