@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Daily Lines Counter - counts real lines added by user, excluding workflow commits.
+Daily Lines Counter
 Usage:
-  python daily_lines.py             # last 14 days
-  python daily_lines.py --backfill  # last 90 days (first run)
+  python daily_lines.py             # daily mode: last 14 days
+  python daily_lines.py --backfill  # backfill mode: last 90 days
 """
 
 import os
@@ -17,6 +17,8 @@ from datetime import datetime, timedelta
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 USER = "GaponovAlexey"
+# Match commits by these author names (add your local git name if different)
+AUTHOR_NAMES = {"gaponovalexey", "alexey", "alexey gaponov"}
 DAYS = 90 if "--backfill" in sys.argv else 14
 MAX_REPOS = 30
 
@@ -33,6 +35,7 @@ SKIP_MESSAGES = [
     "update readme",
     "auto update",
     "ci: update",
+    "github actions",
 ]
 
 
@@ -44,15 +47,15 @@ def api(url):
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
             if e.code == 403:
-                print(f"Rate limit hit. Waiting 20s... (attempt {attempt+1}/3)")
+                print(f"  Rate limit. Waiting 20s... ({attempt+1}/3)")
                 time.sleep(20)
                 continue
-            if e.code == 404:
+            if e.code in (404, 409):
                 return None
-            print(f"HTTP {e.code} for {url}")
+            print(f"  HTTP {e.code}: {url}")
             return None
-        except Exception as e:
-            print(f"Error: {e}")
+        except Exception as ex:
+            print(f"  Error: {ex}")
             return None
     return None
 
@@ -60,196 +63,208 @@ def api(url):
 def get_repos():
     repos = []
     if TOKEN:
-        url = "https://api.github.com/user/repos?affiliation=owner&sort=pushed&direction=desc&per_page=100"
-        data = api(url)
+        data = api("https://api.github.com/user/repos?affiliation=owner&sort=pushed&direction=desc&per_page=100")
         if data:
             repos = [r for r in data if not r.get("fork")]
-
     if not repos:
-        url = f"https://api.github.com/users/{USER}/repos?type=owner&sort=pushed&direction=desc&per_page=100"
-        data = api(url)
+        data = api(f"https://api.github.com/users/{USER}/repos?type=owner&sort=pushed&direction=desc&per_page=100")
         if data:
             repos = [r for r in data if not r.get("fork")]
-
     repos.sort(key=lambda x: x.get("pushed_at", ""), reverse=True)
     result = repos[:MAX_REPOS]
-    print(f"Found {len(result)} repos (limited to {MAX_REPOS} most recently updated)")
+    print(f"Found {len(result)} repos")
     return result
 
 
-def should_skip_commit(message):
+def is_my_commit(commit):
+    """Check if commit belongs to me by GitHub login or author name."""
+    # Check GitHub login association
+    author_obj = commit.get("author")
+    if author_obj and isinstance(author_obj, dict):
+        login = author_obj.get("login", "").lower()
+        if login == USER.lower():
+            return True
+
+    # Check commit author name
+    commit_data = commit.get("commit", {})
+    author_name = commit_data.get("author", {}).get("name", "").lower()
+    if author_name in AUTHOR_NAMES:
+        return True
+
+    return False
+
+
+def should_skip(message):
     if not message:
         return False
-    msg_lower = message.lower().strip()
-    return any(skip in msg_lower for skip in SKIP_MESSAGES)
+    m = message.lower().strip()
+    return any(s in m for s in SKIP_MESSAGES)
 
 
-def get_daily_additions(repo_full_name, since_date, until_date):
-    since = f"{since_date}T00:00:00Z"
-    until = f"{until_date}T00:00:00Z"
-
-    commits_url = (
+def get_repo_additions(repo_full_name, since_str, until_str):
+    """Get total lines added by me in a repo between since and until."""
+    url = (
         f"https://api.github.com/repos/{repo_full_name}/commits"
-        f"?author={USER}&since={since}&until={until}&per_page=100"
+        f"?since={since_str}&until={until_str}&per_page=100"
     )
-    commits = api(commits_url)
-
+    commits = api(url)
     if not commits or not isinstance(commits, list):
         return 0
 
-    total_add = 0
+    total = 0
     for c in commits:
-        msg = c.get("commit", {}).get("message", "")
-        if should_skip_commit(msg):
+        if not is_my_commit(c):
             continue
-
+        msg = c.get("commit", {}).get("message", "")
+        if should_skip(msg):
+            continue
         sha = c["sha"]
         detail = api(f"https://api.github.com/repos/{repo_full_name}/commits/{sha}")
         if detail and "stats" in detail:
             additions = detail["stats"].get("additions", 0)
             if additions > 0:
-                short_msg = msg.split("\n")[0][:50]
-                print(f"  +{additions} in {repo_full_name} — {short_msg}")
-            total_add += additions
-
-    return total_add
+                short = msg.split("\n")[0][:40]
+                print(f"    +{additions} [{short}]")
+            total += additions
+    return total
 
 
 def generate_svg(data):
     w = 680
-    bar_h = 6
-    gap = 14
+    bar_h = 4
+    gap = 16
     pad_left = 52
-    pad_right = 48
-    pad_top = 32
-    h = pad_top + len(data) * (bar_h + gap) + 16
+    pad_right = 44
+    pad_top = 28
+    h = pad_top + len(data) * (bar_h + gap) + 12
 
     max_val = max((v for _, v in data), default=0)
     max_scale = max_val if max_val > 0 else 1
     bar_area = w - pad_left - pad_right
 
-    lines = []
-    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {w} {h}">')
-    lines.append(
-        f'<text x="{pad_left}" y="18" font-family="monospace" font-size="10" '
-        f'fill="#484f58" letter-spacing="0.1em" opacity="0.6">DAILY LINES ADDED</text>'
-    )
+    out = []
+    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {w} {h}">')
 
     for i, (label, val) in enumerate(data):
         y = pad_top + i * (bar_h + gap)
-        cy = y + bar_h // 2 + 1
+        mid = y + bar_h / 2
 
         bw = int((val / max_scale) * bar_area) if val > 0 else 0
 
         if val == 0:
-            bar_color = "#21262d"
-            num_color = "#30363d"
-        elif val / max_scale > 0.5:
-            bar_color = "#3fb950"
-            num_color = "#3fb950"
-        elif val / max_scale > 0.15:
-            bar_color = "#238636"
-            num_color = "#238636"
+            fill = "#1c2128"
+            num_fill = "none"
+        elif val / max_scale > 0.6:
+            fill = "#3fb950"
+            num_fill = "#3fb950"
+        elif val / max_scale > 0.2:
+            fill = "#238636"
+            num_fill = "#238636"
         else:
-            bar_color = "#1a7f37"
-            num_color = "#484f58"
+            fill = "#1a7f37"
+            num_fill = "#6e7681"
 
-        lines.append(
-            f'<text x="{pad_left - 6}" y="{cy + 4}" font-family="monospace" font-size="10" '
-            f'fill="#484f58" text-anchor="end" opacity="0.5">{label}</text>'
+        # date label
+        out.append(
+            f'<text x="{pad_left - 6}" y="{mid + 4}" '
+            f'font-family="monospace" font-size="9" '
+            f'fill="#484f58" text-anchor="end">{label}</text>'
         )
-        # track line
-        lines.append(
-            f'<rect x="{pad_left}" y="{y + 2}" width="{bar_area}" height="2" fill="#21262d" opacity="0.4"/>'
+        # track
+        out.append(
+            f'<rect x="{pad_left}" y="{mid - 1}" '
+            f'width="{bar_area}" height="2" fill="#1c2128"/>'
         )
-        # value bar
+        # bar
         if bw > 0:
-            lines.append(
-                f'<rect x="{pad_left}" y="{y}" width="{bw}" height="{bar_h}" rx="1" fill="{bar_color}"/>'
+            out.append(
+                f'<rect x="{pad_left}" y="{y}" '
+                f'width="{bw}" height="{bar_h}" rx="1" fill="{fill}"/>'
             )
-        # value label — only for non-zero
-        if val > 0:
-            lines.append(
-                f'<text x="{pad_left + bar_area + 6}" y="{cy + 4}" font-family="monospace" font-size="10" '
-                f'fill="{num_color}" text-anchor="start">{val:,}</text>'
+        # value
+        if val > 0 and num_fill != "none":
+            out.append(
+                f'<text x="{pad_left + bar_area + 5}" y="{mid + 4}" '
+                f'font-family="monospace" font-size="9" '
+                f'fill="{num_fill}" text-anchor="start">{val:,}</text>'
             )
 
-    lines.append("</svg>")
-    return "\n".join(lines)
+    out.append("</svg>")
+    return "\n".join(out)
 
 
-def update_readme(svg_content):
-    readme_path = "README.md"
-    if not os.path.exists(readme_path):
+def update_readme():
+    path = "README.md"
+    if not os.path.exists(path):
         return
-
-    with open(readme_path, "r") as f:
+    with open(path) as f:
         content = f.read()
-
-    start_marker = "<!-- DAILY_LINES_START -->"
-    end_marker = "<!-- DAILY_LINES_END -->"
-    img_tag = '<img src="img/daily_lines.svg" alt="Daily Lines Added" width="100%">'
-    block = f"{start_marker}\n{img_tag}\n{end_marker}"
-
-    if start_marker in content:
+    s = "<!-- DAILY_LINES_START -->"
+    e = "<!-- DAILY_LINES_END -->"
+    img = '<img src="img/daily_lines.svg" alt="Daily Lines Added" width="100%">'
+    block = f"{s}\n{img}\n{e}"
+    if s in content:
         content = re.sub(
-            f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
-            block,
-            content,
-            flags=re.DOTALL,
+            f"{re.escape(s)}.*?{re.escape(e)}", block, content, flags=re.DOTALL
         )
     else:
         content += f"\n\n{block}\n"
-
-    with open(readme_path, "w") as f:
+    with open(path, "w") as f:
         f.write(content)
 
 
 def main():
-    mode = "BACKFILL (90 days)" if "--backfill" in sys.argv else "DAILY (14 days)"
-    print(f"Mode: {mode}")
-    print(f"Fetching repos for {USER}...")
+    backfill = "--backfill" in sys.argv
+    print(f"Mode: {'BACKFILL 90 days' if backfill else 'DAILY 14 days'}")
 
     repos = get_repos()
-    repo_list = [r["full_name"] for r in repos]
-
     today = datetime.utcnow().date()
+
     daily_stats = {}
     for d in range(DAYS):
         date = today - timedelta(days=d)
         daily_stats[date.strftime("%Y-%m-%d")] = 0
 
-    for repo in repo_list:
-        print(f"\nChecking {repo}...")
+    for repo in repos:
+        rname = repo["full_name"]
+        pushed = repo.get("pushed_at", "")
+        print(f"\n→ {rname}  (pushed {pushed[:10]})")
         for date_str in list(daily_stats.keys()):
             next_day = (
                 datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)
             ).strftime("%Y-%m-%d")
-            adds = get_daily_additions(repo, date_str, next_day)
+            since = f"{date_str}T00:00:00Z"
+            until = f"{next_day}T00:00:00Z"
+            # Skip repo if it was last pushed before this date
+            if pushed and pushed[:10] < date_str:
+                continue
+            adds = get_repo_additions(rname, since, until)
+            if adds:
+                print(f"  {date_str}: +{adds}")
             daily_stats[date_str] += adds
 
     sorted_dates = sorted(daily_stats.keys())
-
-    # SVG always shows last 14 days
     display_dates = sorted_dates[-14:]
 
-    data = []
-    for date_str in display_dates:
-        label = datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d")
-        data.append((label, daily_stats[date_str]))
+    print("\n--- Summary ---")
+    for d in sorted_dates:
+        label = datetime.strptime(d, "%Y-%m-%d").strftime("%b %d")
+        v = daily_stats[d]
+        bar = "█" * min(40, v // 10) if v else ""
+        print(f"{label}: {v:>6,}  {bar}")
 
-    print("\n--- Results ---")
-    for date_str in sorted_dates:
-        label = datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d")
-        print(f"{label}: {daily_stats[date_str]:,} lines")
+    data = [
+        (datetime.strptime(d, "%Y-%m-%d").strftime("%b %d"), daily_stats[d])
+        for d in display_dates
+    ]
 
     svg = generate_svg(data)
     os.makedirs("img", exist_ok=True)
     with open("img/daily_lines.svg", "w") as f:
         f.write(svg)
 
-    update_readme(svg)
-    print("\nDone!")
+    update_readme()
+    print("\nDone! img/daily_lines.svg updated.")
 
 
 if __name__ == "__main__":
