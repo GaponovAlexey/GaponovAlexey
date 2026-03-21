@@ -32,4 +32,8 @@ jobs:
           git add -A
           git diff --staged --quiet && exit 0
           git commit -m "Backfill stats"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/GaponovAlexey/GaponovAlexey.git HEAD:main
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && \
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/GaponovAlexey/GaponovAlexey.git HEAD:main && \
+            break || sleep 5
+          done
