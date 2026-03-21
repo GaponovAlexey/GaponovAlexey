@@ -2,7 +2,7 @@
 """
 Daily Lines Counter - counts real lines added by user, excluding workflow commits.
 Usage:
-  python daily_lines.py           # last 14 days
+  python daily_lines.py             # last 14 days
   python daily_lines.py --backfill  # last 90 days (first run)
 """
 
@@ -117,61 +117,62 @@ def get_daily_additions(repo_full_name, since_date, until_date):
 
 def generate_svg(data):
     w = 680
-    bar_h = 14
-    gap = 9
-    pad_left = 80
-    pad_right = 60
-    pad_top = 44
-    h = pad_top + len(data) * (bar_h + gap) + 20
+    bar_h = 6
+    gap = 14
+    pad_left = 52
+    pad_right = 48
+    pad_top = 32
+    h = pad_top + len(data) * (bar_h + gap) + 16
 
     max_val = max((v for _, v in data), default=0)
     max_scale = max_val if max_val > 0 else 1
     bar_area = w - pad_left - pad_right
 
-    period = f"LAST {DAYS} DAYS"
-
     lines = []
     lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {w} {h}">')
-    lines.append(f'<rect width="{w}" height="{h}" fill="#0d1117"/>')
     lines.append(
-        f'<text x="{pad_left}" y="22" font-family="monospace" font-size="11" '
-        f'fill="#484f58" letter-spacing="0.08em">DAILY LINES ADDED · {period}</text>'
+        f'<text x="{pad_left}" y="18" font-family="monospace" font-size="10" '
+        f'fill="#484f58" letter-spacing="0.1em" opacity="0.6">DAILY LINES ADDED</text>'
     )
 
     for i, (label, val) in enumerate(data):
         y = pad_top + i * (bar_h + gap)
-        cy = y + bar_h // 2 + 4
+        cy = y + bar_h // 2 + 1
 
         bw = int((val / max_scale) * bar_area) if val > 0 else 0
 
         if val == 0:
-            bar_color = "#161b22"
+            bar_color = "#21262d"
             num_color = "#30363d"
         elif val / max_scale > 0.5:
-            bar_color = "#39d353"
-            num_color = "#39d353"
+            bar_color = "#3fb950"
+            num_color = "#3fb950"
         elif val / max_scale > 0.15:
-            bar_color = "#26a641"
-            num_color = "#26a641"
+            bar_color = "#238636"
+            num_color = "#238636"
         else:
-            bar_color = "#0e4429"
+            bar_color = "#1a7f37"
             num_color = "#484f58"
 
         lines.append(
-            f'<text x="{pad_left - 8}" y="{cy}" font-family="monospace" font-size="11" '
-            f'fill="#484f58" text-anchor="end">{label}</text>'
+            f'<text x="{pad_left - 6}" y="{cy + 4}" font-family="monospace" font-size="10" '
+            f'fill="#484f58" text-anchor="end" opacity="0.5">{label}</text>'
         )
+        # track line
         lines.append(
-            f'<rect x="{pad_left}" y="{y}" width="{bar_area}" height="{bar_h}" rx="2" fill="#161b22"/>'
+            f'<rect x="{pad_left}" y="{y + 2}" width="{bar_area}" height="2" fill="#21262d" opacity="0.4"/>'
         )
+        # value bar
         if bw > 0:
             lines.append(
-                f'<rect x="{pad_left}" y="{y}" width="{bw}" height="{bar_h}" rx="2" fill="{bar_color}"/>'
+                f'<rect x="{pad_left}" y="{y}" width="{bw}" height="{bar_h}" rx="1" fill="{bar_color}"/>'
             )
-        lines.append(
-            f'<text x="{pad_left + bar_area + 8}" y="{cy}" font-family="monospace" font-size="11" '
-            f'fill="{num_color}" text-anchor="start">{val:,}</text>'
-        )
+        # value label — only for non-zero
+        if val > 0:
+            lines.append(
+                f'<text x="{pad_left + bar_area + 6}" y="{cy + 4}" font-family="monospace" font-size="10" '
+                f'fill="{num_color}" text-anchor="start">{val:,}</text>'
+            )
 
     lines.append("</svg>")
     return "\n".join(lines)
@@ -229,7 +230,7 @@ def main():
 
     sorted_dates = sorted(daily_stats.keys())
 
-    # For SVG: show only last 14 days even after backfill
+    # SVG always shows last 14 days
     display_dates = sorted_dates[-14:]
 
     data = []
