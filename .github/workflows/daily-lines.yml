@@ -1,9 +1,13 @@
 name: Daily Lines Stats
 
+concurrency:
+  group: daily-lines
+  cancel-in-progress: true
+
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs once daily at midnight UTC
-  workflow_dispatch: # Manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-stats:
@@ -13,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetch all history for proper rebase
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -28,12 +32,9 @@ jobs:
         run: |
           git config --local user.email "72881348+GaponovAlexey@users.noreply.github.com"
           git config --local user.name "GaponovAlexey"
+          git fetch origin main
+          git reset --hard origin/main
           git add -A
           git diff --staged --quiet && exit 0
           git commit -m "Update daily lines stats"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin main && break
-            echo "Retry $i failed, waiting..."
-            sleep 5
-          done
-
+          git push origin main
