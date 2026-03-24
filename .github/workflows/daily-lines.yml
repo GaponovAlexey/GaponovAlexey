@@ -1,14 +1,13 @@
 name: Daily Lines Stats
-
 concurrency:
   group: daily-lines
   cancel-in-progress: true
-
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # 07:00 UTC = 01:00 CST (UTC-6, зима) / 02:00 CDT (UTC-5, лето)
+    # Winnipeg переходит на летнее время в марте, на зимнее в ноябре
+    - cron: '0 7 * * *'
   workflow_dispatch:
-
 jobs:
   update-stats:
     runs-on: ubuntu-latest
@@ -19,16 +18,13 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Generate daily lines chart
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python scripts/daily_lines.py
-
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
