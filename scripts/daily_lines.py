@@ -2,6 +2,7 @@
 """
 DAILY UPDATE — runs in GitHub Actions every night.
 Loads cache from img/daily_lines_cache.json, scans last 7 days, rebuilds SVG.
+Uses America/Winnipeg timezone for accurate date tracking.
 """
 
 import os
@@ -11,12 +12,15 @@ import urllib.request
 import urllib.error
 import time
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 from collections import defaultdict
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 USER  = "GaponovAlexey"
 DAYS  = 7
 MAX_REPOS = 30
+
+TZ = ZoneInfo("America/Winnipeg")
 
 AUTHOR_NAMES = {"gaponovalexey", "alexey", "alexey gaponov", "gaponov alexey"}
 
@@ -81,10 +85,19 @@ def skip_msg(msg):
     return any(s in (msg or "").lower() for s in SKIP_MESSAGES)
 
 
+def utc_to_winnipeg_date(date_str):
+    """Convert UTC ISO date string (e.g. '2025-03-24T23:45:00Z') to Winnipeg local date string."""
+    dt_utc = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+    dt_local = dt_utc.astimezone(TZ)
+    return dt_local.strftime("%Y-%m-%d")
+
+
 def collect(repos):
-    today  = datetime.utcnow().date()
+    today  = datetime.now(TZ).date()
     cutoff = (today - timedelta(days=DAYS)).strftime("%Y-%m-%d")
     stats  = defaultdict(int)
+
+    print(f"Winnipeg date: {today}, cutoff: {cutoff}")
 
     for repo in repos:
         rname  = repo["full_name"]
@@ -106,20 +119,22 @@ def collect(repos):
             msg = c.get("commit", {}).get("message", "")
             if skip_msg(msg):
                 continue
-            date_str = c["commit"]["author"]["date"][:10]
-            sha      = c["sha"]
-            detail   = api(f"https://api.github.com/repos/{rname}/commits/{sha}")
+            # Convert UTC commit time to Winnipeg local date
+            utc_date_str = c["commit"]["author"]["date"]
+            local_date   = utc_to_winnipeg_date(utc_date_str)
+            sha          = c["sha"]
+            detail       = api(f"https://api.github.com/repos/{rname}/commits/{sha}")
             if detail and "stats" in detail:
                 adds = detail["stats"].get("additions", 0)
                 if adds:
-                    print(f"  {date_str} +{adds:,}  {msg.split(chr(10))[0][:40]}")
-                stats[date_str] += adds
+                    print(f"  {local_date} +{adds:,}  {msg.split(chr(10))[0][:40]}")
+                stats[local_date] += adds
 
     return stats
 
 
 def generate_svg(stats):
-    today    = datetime.utcnow().date()
+    today    = datetime.now(TZ).date()
     cur_year = today.year
 
     # monthly (current year)
@@ -258,6 +273,7 @@ def update_readme():
 
 def main():
     print(f"Daily update for {USER}, last {DAYS} days")
+    print(f"Current Winnipeg date/time: {datetime.now(TZ).strftime('%Y-%m-%d %H:%M %Z')}")
 
     repos = get_repos()
     print(f"Repos: {len(repos)}")
