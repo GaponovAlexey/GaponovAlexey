@@ -1,13 +1,20 @@
 name: Backfill Stats
 
+concurrency:
+  group: backfill-stats
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
 
 jobs:
   backfill:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
+
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,6 +39,7 @@ jobs:
           git add -A
           git diff --staged --quiet && exit 0
           git commit -m "Backfill stats"
+
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && \
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/GaponovAlexey/GaponovAlexey.git HEAD:main && \
