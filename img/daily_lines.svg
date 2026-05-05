@@ -11,8 +11,8 @@
 <rect x="191" y="52" width="47" height="34" rx="2" fill="#238636" opacity="1"/>
 <text x="214" y="49" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">218k</text>
 <text x="214" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Apr</text>
-<rect x="244" y="83" width="47" height="3" rx="2" fill="#1a7f37" opacity="1"/>
-<text x="267" y="80" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">21k</text>
+<rect x="244" y="81" width="47" height="5" rx="2" fill="#1a7f37" opacity="1"/>
+<text x="267" y="78" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">32k</text>
 <text x="267" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">May</text>
 <rect x="297" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
 <text x="320" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jun</text>
@@ -29,24 +29,25 @@
 <rect x="615" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
 <text x="638" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Dec</text>
 <line x1="32" y1="114" x2="664" y2="114" stroke="#21262d" stroke-width="1" opacity="0.6"/>
-<rect x="32" y="137" width="83" height="37" rx="2" fill="#3fb950"/>
-<text x="73" y="134" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">10,864</text>
-<text x="73" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Tue</text>
-<rect x="123" y="146" width="83" height="28" rx="2" fill="#238636"/>
-<text x="164" y="143" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">8,180</text>
-<text x="164" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
-<rect x="214" y="131" width="83" height="43" rx="2" fill="#3fb950"/>
-<text x="255" y="128" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">12,718</text>
-<text x="255" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Thu</text>
-<rect x="305" y="147" width="83" height="27" rx="2" fill="#238636"/>
-<text x="346" y="144" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">7,904</text>
-<text x="346" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Fri</text>
-<rect x="396" y="126" width="83" height="48" rx="2" fill="#3fb950"/>
-<text x="437" y="123" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">13,918</text>
-<text x="437" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
-<rect x="487" y="172" width="83" height="2" rx="2" fill="#1a7f37"/>
-<text x="528" y="169" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">86</text>
-<text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
-<rect x="578" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Mon</text>
+<rect x="32" y="146" width="83" height="28" rx="2" fill="#238636"/>
+<text x="73" y="143" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">8,180</text>
+<text x="73" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
+<rect x="123" y="131" width="83" height="43" rx="2" fill="#3fb950"/>
+<text x="164" y="128" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">12,718</text>
+<text x="164" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Thu</text>
+<rect x="214" y="147" width="83" height="27" rx="2" fill="#238636"/>
+<text x="255" y="144" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">7,904</text>
+<text x="255" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Fri</text>
+<rect x="305" y="126" width="83" height="48" rx="2" fill="#3fb950"/>
+<text x="346" y="123" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">13,918</text>
+<text x="346" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
+<rect x="396" y="172" width="83" height="2" rx="2" fill="#1a7f37"/>
+<text x="437" y="169" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">86</text>
+<text x="437" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
+<rect x="487" y="168" width="83" height="6" rx="2" fill="#1a7f37"/>
+<text x="528" y="165" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">2,001</text>
+<text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Mon</text>
+<rect x="578" y="145" width="83" height="29" rx="2" fill="#3fb950"/>
+<text x="619" y="142" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">8,634</text>
+<text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Tue</text>
 </svg>
