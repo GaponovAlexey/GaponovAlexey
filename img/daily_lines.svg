@@ -30,17 +30,17 @@
 <text x="638" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Dec</text>
 <line x1="32" y1="114" x2="664" y2="114" stroke="#21262d" stroke-width="1" opacity="0.6"/>
 <rect x="32" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="73" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Mon</text>
+<text x="73" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Tue</text>
 <rect x="123" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="164" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Tue</text>
+<text x="164" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
 <rect x="214" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="255" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
+<text x="255" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Thu</text>
 <rect x="305" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="346" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Thu</text>
+<text x="346" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Fri</text>
 <rect x="396" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="437" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Fri</text>
+<text x="437" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
 <rect x="487" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
+<text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
 <rect x="578" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
-<text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
+<text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Mon</text>
 </svg>
