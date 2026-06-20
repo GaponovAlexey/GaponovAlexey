@@ -4,9 +4,9 @@ concurrency:
   cancel-in-progress: true
 on:
   schedule:
-    # 07:00 UTC = 01:00 CST (UTC-6, зима) / 02:00 CDT (UTC-5, лето)
-    # Winnipeg переходит на летнее время в марте, на зимнее в ноябре
-        - cron: '0 7,19 * * *' # Runs at 07:00 and 19:00 UTC (every 12h)
+    # 07:00 UTC = 23:00 PST (UTC-8, зима) / 00:00 PDT (UTC-7, лето)
+    # Kelowna переходит на летнее время в марте, на зимнее в ноябре
+    - cron: '0 7,19 * * *' # Runs at 07:00 and 19:00 UTC (every 12h)
   workflow_dispatch:
 jobs:
   update-stats:
