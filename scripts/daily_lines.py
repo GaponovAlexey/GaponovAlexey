@@ -20,7 +20,7 @@ USER  = "GaponovAlexey"
 DAYS  = 7
 MAX_REPOS = 30
 
-TZ = ZoneInfo("America/Winnipeg")
+TZ = ZoneInfo("America/Vancouver")
 
 AUTHOR_NAMES = {"gaponovalexey", "alexey", "alexey gaponov", "gaponov alexey"}
 
@@ -126,10 +126,11 @@ def collect(repos):
             detail       = api(f"https://api.github.com/repos/{rname}/commits/{sha}")
             if detail and "stats" in detail:
                 adds = detail["stats"].get("additions", 0)
-                if adds:
-                    print(f"  {local_date} +{adds:,}  {msg.split(chr(10))[0][:40]}")
-                stats[local_date] += adds
-
+                dels = detail["stats"].get("deletions", 0)
+                changed = adds + dels
+                if changed:
+                        print(f"  {local_date} +{adds:,}/-{dels:,}  {msg.split(chr(10))[0][:40]}")
+                    stats[local_date] += changed
     return stats
 
 
@@ -273,7 +274,7 @@ def update_readme():
 
 def main():
     print(f"Daily update for {USER}, last {DAYS} days")
-    print(f"Current Winnipeg date/time: {datetime.now(TZ).strftime('%Y-%m-%d %H:%M %Z')}")
+    print(f"Current Vancouver date/time: {datetime.now(TZ).strftime('%Y-%m-%d %H:%M %Z')}")
 
     repos = get_repos()
     print(f"Repos: {len(repos)}")
@@ -289,8 +290,7 @@ def main():
     # scan fresh data
     new = collect(repos)
     for k, v in new.items():
-        stats[k] = max(stats.get(k, 0), v)
-
+        stats[k] = v
     # save updated cache
     os.makedirs("img", exist_ok=True)
     with open(CACHE_PATH, "w") as f:
