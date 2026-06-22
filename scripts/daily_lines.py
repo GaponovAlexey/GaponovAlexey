@@ -142,6 +142,8 @@ def collect(repos):
                         print(f"  {local_date} +{adds:,}/-{dels:,}  {msg.split(chr(10))[0][:40]}")
                     stats[local_date] += changed
     return stats
+
+def generate_svg(stats):
     today    = datetime.now(TZ).date()
     cur_year = today.year
 
