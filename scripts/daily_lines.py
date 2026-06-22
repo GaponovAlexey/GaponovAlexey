@@ -2,7 +2,7 @@
 """
 DAILY UPDATE — runs in GitHub Actions every night.
 Loads cache from img/daily_lines_cache.json, scans last 7 days, rebuilds SVG.
-Uses America/Winnipeg timezone for accurate date tracking.
+Uses America/Vancouver timezone for accurate date tracking.
 """
 
 import os
@@ -85,19 +85,26 @@ def skip_msg(msg):
     return any(s in (msg or "").lower() for s in SKIP_MESSAGES)
 
 
-def utc_to_winnipeg_date(date_str):
-    """Convert UTC ISO date string (e.g. '2025-03-24T23:45:00Z') to Winnipeg local date string."""
+def utc_to_vancouver_date(date_str):
+    """Convert UTC ISO date string (e.g. '2025-03-24T23:45:00Z') to Vancouver local date string."""
     dt_utc = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
     dt_local = dt_utc.astimezone(TZ)
     return dt_local.strftime("%Y-%m-%d")
 
+
+
+def get_branches(rname):
+    data = api(f"https://api.github.com/repos/{rname}/branches?per_page=100")
+    if not data or not isinstance(data, list):
+        return ["main"]
+    return [b["name"] for b in data if isinstance(b, dict) and b.get("name")]
 
 def collect(repos):
     today  = datetime.now(TZ).date()
     cutoff = (today - timedelta(days=DAYS)).strftime("%Y-%m-%d")
     stats  = defaultdict(int)
 
-    print(f"Winnipeg date: {today}, cutoff: {cutoff}")
+    print(f"Vancouver date: {today}, cutoff: {cutoff}")
 
     for repo in repos:
         rname  = repo["full_name"]
@@ -106,35 +113,35 @@ def collect(repos):
             continue
 
         print(f"→ {rname}")
-        commits = api(
-            f"https://api.github.com/repos/{rname}/commits"
-            f"?since={cutoff}T00:00:00Z&per_page=100"
-        )
-        if not commits or not isinstance(commits, list):
-            continue
-
-        for c in commits:
-            if not is_mine(c):
+        seen = set()
+        for branch in get_branches(rname):
+            commits = api(
+                f"https://api.github.com/repos/{rname}/commits"
+                f"?sha={branch}&since={cutoff}T00:00:00Z&per_page=100"
+            )
+            if not commits or not isinstance(commits, list):
                 continue
-            msg = c.get("commit", {}).get("message", "")
-            if skip_msg(msg):
-                continue
-            # Convert UTC commit time to Winnipeg local date
-            utc_date_str = c["commit"]["author"]["date"]
-            local_date   = utc_to_winnipeg_date(utc_date_str)
-            sha          = c["sha"]
-            detail       = api(f"https://api.github.com/repos/{rname}/commits/{sha}")
-            if detail and "stats" in detail:
-                adds = detail["stats"].get("additions", 0)
-                dels = detail["stats"].get("deletions", 0)
-                changed = adds + dels
-                if changed:
-                    print(f"  {local_date} +{adds:,}/-{dels:,}  {msg.split(chr(10))[0][:40]}")
-                stats[local_date] += changed
+            for c in commits:
+                sha = c.get("sha")
+                if not sha or sha in seen:
+                    continue
+                seen.add(sha)
+                if not is_mine(c):
+                    continue
+                msg = c.get("commit", {}).get("message", "")
+                if skip_msg(msg):
+                    continue
+                utc_date_str = c["commit"]["author"]["date"]
+                local_date  = utc_to_vancouver_date(utc_date_str)
+                detail      = api(f"https://api.github.com/repos/{rname}/commits/{sha}")
+                if detail and "stats" in detail:
+                    adds = detail["stats"].get("additions", 0)
+                    dels = detail["stats"].get("deletions", 0)
+                    changed = adds + dels
+                    if changed:
+                        print(f"  {local_date} +{adds:,}/-{dels:,}  {msg.split(chr(10))[0][:40]}")
+                    stats[local_date] += changed
     return stats
-
-
-def generate_svg(stats):
     today    = datetime.now(TZ).date()
     cur_year = today.year
 
