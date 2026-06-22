@@ -129,8 +129,8 @@ def collect(repos):
                 dels = detail["stats"].get("deletions", 0)
                 changed = adds + dels
                 if changed:
-                        print(f"  {local_date} +{adds:,}/-{dels:,}  {msg.split(chr(10))[0][:40]}")
-                    stats[local_date] += changed
+                    print(f"  {local_date} +{adds:,}/-{dels:,}  {msg.split(chr(10))[0][:40]}")
+                stats[local_date] += changed
     return stats
 
 
