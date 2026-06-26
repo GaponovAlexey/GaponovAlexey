@@ -15,7 +15,7 @@
 <text x="267" y="68" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">99k</text>
 <text x="267" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">May</text>
 <rect x="297" y="30" width="47" height="56" rx="2" fill="#3fb950" opacity="1"/>
-<text x="320" y="27" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">359k</text>
+<text x="320" y="27" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">360k</text>
 <text x="320" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jun</text>
 <rect x="350" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
 <text x="373" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jul</text>
@@ -37,7 +37,7 @@
 <text x="164" y="147" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">60,504</text>
 <text x="164" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
 <rect x="214" y="126" width="83" height="48" rx="2" fill="#3fb950"/>
-<text x="255" y="123" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">116,874</text>
+<text x="255" y="123" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">116,871</text>
 <text x="255" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
 <rect x="305" y="171" width="83" height="3" rx="2" fill="#1a7f37"/>
 <text x="346" y="168" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">7,464</text>
@@ -48,7 +48,7 @@
 <rect x="487" y="172" width="83" height="2" rx="2" fill="#1a7f37"/>
 <text x="528" y="169" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">7,178</text>
 <text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
-<rect x="578" y="172" width="83" height="2" rx="2" fill="#1a7f37"/>
-<text x="619" y="169" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">7,256</text>
+<rect x="578" y="171" width="83" height="3" rx="2" fill="#1a7f37"/>
+<text x="619" y="168" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">7,921</text>
 <text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Thu</text>
 </svg>
