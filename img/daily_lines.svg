@@ -14,8 +14,8 @@
 <rect x="244" y="71" width="47" height="15" rx="2" fill="#238636" opacity="1"/>
 <text x="267" y="68" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">99k</text>
 <text x="267" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">May</text>
-<rect x="297" y="36" width="47" height="50" rx="2" fill="#3fb950" opacity="1"/>
-<text x="320" y="33" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">321k</text>
+<rect x="297" y="35" width="47" height="51" rx="2" fill="#3fb950" opacity="1"/>
+<text x="320" y="32" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">329k</text>
 <text x="320" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jun</text>
 <rect x="350" y="84" width="47" height="2" rx="2" fill="#1c2128" opacity="0.2"/>
 <text x="373" y="100" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Jul</text>
@@ -48,7 +48,7 @@
 <rect x="487" y="156" width="83" height="18" rx="2" fill="#238636"/>
 <text x="528" y="153" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">7,291</text>
 <text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sat</text>
-<rect x="578" y="172" width="83" height="2" rx="2" fill="#1a7f37"/>
-<text x="619" y="169" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">2</text>
+<rect x="578" y="153" width="83" height="21" rx="2" fill="#238636"/>
+<text x="619" y="150" font-family="monospace" font-size="8" fill="#238636" text-anchor="middle">8,789</text>
 <text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Sun</text>
 </svg>
