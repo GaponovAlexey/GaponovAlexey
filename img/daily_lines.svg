@@ -48,6 +48,7 @@
 <rect x="487" y="144" width="83" height="30" rx="2" fill="#3fb950"/>
 <text x="528" y="141" font-family="monospace" font-size="8" fill="#3fb950" text-anchor="middle">34,399</text>
 <text x="528" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Tue</text>
-<rect x="578" y="172" width="83" height="2" rx="2" fill="#1c2128"/>
+<rect x="578" y="172" width="83" height="2" rx="2" fill="#1a7f37"/>
+<text x="619" y="169" font-family="monospace" font-size="8" fill="#6e7681" text-anchor="middle">73</text>
 <text x="619" y="188" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle" opacity="0.5">Wed</text>
 </svg>
