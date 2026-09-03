@@ -1,4 +1,4 @@
-Alexey · indie dev · Rust / Wasm · building [Memoiry](https://memoiry.ca) & [Drako.world](https://drako.world)
+Alexey · indie dev · Rust / Wasm · building [It Services](https://gaphap.com) & [Drako.world](https://drako.world)
 Real commit activity ↓
 <!-- DAILY_LINES_START -->
 <img src="img/daily_lines.svg" alt="Daily Lines Added" width="100%">
